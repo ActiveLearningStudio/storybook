@@ -27,7 +27,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "start:dev": "start-storybook -p 6006 -s public",
-    "build": "build-storybook -s public"
+    "build": "build-storybook -s public",
+    "start:prod": "node server.js"
   },
   "eslintConfig": {
     "extends": [
