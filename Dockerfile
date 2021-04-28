@@ -6,7 +6,7 @@ RUN npm install --no-package-lock
 COPY . .
 RUN npm run build
 RUN mkdir -p /app/html
-RUN cp -rf /app/build/* /app/html
+RUN cp -rf /app/storybook-static/* /app/html
 
 # production environment
 #FROM nginx:stable-alpine
