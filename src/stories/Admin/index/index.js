@@ -9,12 +9,12 @@ export const Index = () => {
      <>
     <Tabview
     componentName="Index"
-    path="src/actions/index.js"
-    description="this is description of help compoennt"
+    path="\ActiveLearningStudio-react-client\src\containers\Admin\index.js"
+    description="This is the Description of Compoennt"
     codeSnippet={codeSnippet}
-    libraryUsed={['react-bootstrap', 'react-redux']}
+    libraryUsed={['react-bootstrap', 'react-redux','@fortawesome/react-fontawesome']}
     customHooks={[
-      {name:'raja',url:'http://w3scool.com'},{name:'faisal',url:'www.pakistan.com'}
+      {name:'./formik/createActivityItem',url:'www.google.com'},{name:'./formik/createOrg',url:'www.pakistan.com'},{name:'./formik/addRole',url:'www.google.com'},{name:'./formik/createuser',url:'www.google.com'}
     ]}
     //customHooks={['./formik/createOrg','removeActiveAdminForm']}
     images={IndexPageimg}
