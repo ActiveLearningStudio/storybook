@@ -3,6 +3,7 @@ import './formik.css';
 import {CreateActivitySnippet} from './createActivityCode.js'
 import {CreateActivityStoreCode} from './createActivityStoreCode.js'
 import {AddRoleSnippet} from './addRole.js'
+import {CreateLmsApi} from './createLmsApi.js'
 import {CreateLmsStore} from  './createLmsStore'
 import {CreateLmsSnippet} from './createLms.js'
 import {ActivityItemSnippet} from './activityItemSnippet.js'
@@ -48,6 +49,9 @@ AddRole.args = {
     
     
   ],
+  apiUsed:[
+
+  ],
   //customHooks={['./formik/createOrg','removeActiveAdminForm']}
   images:Addroleimg,
   stylesheetUsed: Stylesheetused,
@@ -90,7 +94,9 @@ AddRole.args = {
     
     
   ],
-  //customHooks={['./formik/createOrg','removeActiveAdminForm']}
+  apiUsed:[
+
+  ],
   images:ActivityItemimg,
   stylesheetUsed: Stylesheetused,
   examples:"https://multitenancy.currikistudio.org/org/currikistudio/admin"
@@ -113,7 +119,10 @@ AddRole.args = {
     
     
   ],
-  //customHooks={['./formik/createOrg','removeActiveAdminForm']}
+  apiUsed:[
+    {path:'../../../services/organizations.services',apicode:CreateLmsApi}
+
+  ],
   images:createLms,
   stylesheetUsed: Stylesheetused,
   examples:"https://multitenancy.currikistudio.org/org/currikistudio/admin"
@@ -127,15 +136,15 @@ AddRole.args = {
   libraryUsed:['react-bootstrap', 'react-redux','formik','swal'],
   customHooks:[
     
-    
-    
   ],
   reduxStore: [
     {path:'store/actions/admin',pathCode:CreateLmsStore},
     
     
   ],
-  //customHooks={['./formik/createOrg','removeActiveAdminForm']}
+  apiUsed:[
+
+  ],
   images:createorg,
   stylesheetUsed: Stylesheetused,
   examples:"https://multitenancy.currikistudio.org/org/currikistudio/admin"
@@ -148,16 +157,16 @@ AddRole.args = {
   codeSnippet:CreateUserSnippet,
   libraryUsed:['react-bootstrap', 'react-redux','formik','swal'],
   customHooks:[
-    
-    
-    
+
   ],
   reduxStore: [
     {path:'store/actions/admin',pathCode:CreateLmsStore},
     
     
   ],
-  //customHooks={['./formik/createOrg','removeActiveAdminForm']}
+  apiUsed:[
+
+  ],
   images:CreateUserimg,
   stylesheetUsed: Stylesheetused,
   examples:"https://multitenancy.currikistudio.org/org/currikistudio/admin"

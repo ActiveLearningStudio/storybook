@@ -1,17 +1,17 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
 
-import { Profile } from './profile.js';
+import { Index } from './index.js';
 
 export default {
-  title: 'Header/Profile',
-  component: Profile,
+  title: 'Header/Index',
+  component: Index,
   argTypes: {
     backgroundColor: { control: 'color' },
   },
 } as Meta;
 
-const Template = () => <Profile  />;
+const Template = () => <Index />;
 
 
 export const component = Template.bind({});

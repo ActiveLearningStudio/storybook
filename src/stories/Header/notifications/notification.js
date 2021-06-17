@@ -1,25 +1,24 @@
 import React from 'react';
-import './index.css';
 import { Tabview } from '../../../component/Tabview'
 import {codeSnippet} from './code.js'
 import IndexPageimg from './indexPage.png';
-import {IndexStore} from './indexStore.js'
+import {NotiStore} from './NotiStore.js'
 import {Stylesheetused}  from './stylesheetUsed.js';
-export const Index = () => {
+export const Notification = () => {
    return (
      <>
     <Tabview
-    componentName="Index"
-    path="\ActiveLearningStudio-react-client\src\containers\Admin\index.js"
+    componentName="Notification"
+    path="\src\components\Header\notification.js"
     description="This is the Description of Compoennt"
     codeSnippet={codeSnippet}
-    libraryUsed={['react-bootstrap', 'react-redux','react-fontawesome']}
+    libraryUsed={['react-bootstrap', 'react-redux','react-router-dom']}
     customHooks={[
-      {name:'./formik/createActivityItem',url:'www.google.com'},{name:'./formik/createOrg',url:'www.pakistan.com'},{name:'./formik/addRole',url:'www.google.com'},{name:'./formik/createuser',url:'www.google.com'}
+      {name:'containers/Notification/NotificationArea',url:'www.google.com'}
     ]}
     //customHooks={['./formik/createOrg','removeActiveAdminForm']}
     reduxStore= {[
-      {path:'/src/store/actions/admin',pathCode:IndexStore}
+      {path:'/src/store/actions/notification',pathCode:NotiStore}
 
     ]}
     apiUsed= {[

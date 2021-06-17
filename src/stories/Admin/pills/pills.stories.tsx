@@ -1,17 +1,17 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
 
-import { Search } from './search.js';
+import { Pills } from './pills.js';
 
 export default {
-  title: 'Header/Search',
-  component: Search,
+  title: 'Admin/pills',
+  component: Pills,
   argTypes: {
     backgroundColor: { control: 'color' },
   },
 } as Meta;
 
-const Template = () => <Search  />;
+const Template = () => <Pills />;
 
 
 export const component = Template.bind({});

@@ -5,11 +5,11 @@ import './Tabview.css';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 import { Libraries } from './libraries'
-
+import LinkTo from '@storybook/addon-links/react'
 export const Tabview = (props) => {
 
    const { description, path, codeSnippet, libraryUsed, customHooks,
-      images, componentName, stylesheetUsed, examples, reduxStore } = props;
+      images, componentName, apiUsed, stylesheetUsed, examples, reduxStore } = props;
    //console.log(props)
    return (
       <div>
@@ -78,7 +78,7 @@ export const Tabview = (props) => {
                               <li>
                                  <h5>{key.name}
 
-                                    <a href={key.url} target="_blank">link to library</a></h5>
+                                    <LinkTo story='../Formik' >link to library</LinkTo></h5>
 
                               </li>
 
@@ -124,6 +124,27 @@ export const Tabview = (props) => {
 
                </div>
             </Tab>
+            <Tab eventKey="apiUsed" title="Api Used" >
+               <div className="tab-text">
+
+                  {apiUsed?.length > 0 ? apiUsed?.map((key) => {
+
+                     return (<div>
+                        <p>This is the path of the Services used in this component.if you want to go this directory
+                           then copy this path and  paste into your text editor.</p>
+                        <h4 className="url-header">{key.path} </h4>
+                        <h5>Code Used in Api</h5>
+                        <SyntaxHighlighter language="javascript" style={docco}>
+                           {key.apicode}
+                        </SyntaxHighlighter>
+
+                     </div>
+                     )
+                  }) : <Alert variant="primary" >No Information avaialble</Alert>
+                  }
+
+               </div>
+            </Tab>
             <Tab eventKey="stylesheet" title="Stylesheet" >
                <div className="tab-text">
                   <h5>index.css</h5>
@@ -135,7 +156,10 @@ export const Tabview = (props) => {
             </Tab>
             <Tab eventKey="screenshot" title="Screenshots" >
                <div className="tab-text">
+                 {images ?
                   <img src={images} className="App-logo" alt="logo" />
+                  : <Alert variant="primary" >No Screenshot Avaialble</Alert> }
+                  
 
                </div>
             </Tab>
