@@ -23,6 +23,13 @@ export const Libraries = (props) => {
       }else if (key === 'swal') {
         url='https://www.npmjs.com/package/react-swal'
       }
+      else if (key === 'react-js-pagination') {
+        url='https://www.npmjs.com/package/react-js-pagination'
+      }
+      else if (key === 'react-router-dom') {
+        url='https://www.npmjs.com/package/react-router-dom'
+      }
+      
       
       
         

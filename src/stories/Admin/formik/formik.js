@@ -14,9 +14,11 @@ export const Formik = (props) => {
     customHooks={props.customHooks}
     reduxStore= {props.reduxStore}
     //customHooks={['./formik/createOrg','removeActiveAdminForm']}
+    apiUsed ={props.apiUsed}
     images={props.images}
     stylesheetUsed= {props.stylesheetUsed}
     examples={props.examples}
+
     
     />
     

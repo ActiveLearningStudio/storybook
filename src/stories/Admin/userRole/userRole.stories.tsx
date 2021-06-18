@@ -1,17 +1,17 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
 
-import { Help } from './help.js';
+import { UserRole } from './userRole.js';
 
 export default {
-  title: 'Header/Help',
-  component: Help,
+  title: 'Admin/UserRole',
+  component: UserRole,
   argTypes: {
     backgroundColor: { control: 'color' },
   },
 } as Meta;
 
-const Template = () => <Help />;
+const Template = () => <UserRole />;
 
 
 export const component = Template.bind({});

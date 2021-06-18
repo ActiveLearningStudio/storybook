@@ -1,17 +1,17 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
 
-import { Help } from './help.js';
+import { Tables } from './tables.js';
 
 export default {
-  title: 'Header/Help',
-  component: Help,
+  title: 'Admin/Tables',
+  component: Tables,
   argTypes: {
     backgroundColor: { control: 'color' },
   },
 } as Meta;
 
-const Template = () => <Help />;
+const Template = () => <Tables />;
 
 
 export const component = Template.bind({});

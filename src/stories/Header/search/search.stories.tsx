@@ -1,17 +1,17 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
 
-import { Help } from './help.js';
+import { Search } from './search.js';
 
 export default {
-  title: 'Header/Help',
-  component: Help,
+  title: 'Header/Search Form',
+  component: Search,
   argTypes: {
     backgroundColor: { control: 'color' },
   },
 } as Meta;
 
-const Template = () => <Help />;
+const Template = () => <Search />;
 
 
 export const component = Template.bind({});

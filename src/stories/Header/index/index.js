@@ -1,8 +1,7 @@
 import React from 'react';
-import './index.css';
 import { Tabview } from '../../../component/Tabview'
 import {codeSnippet} from './code.js'
-import IndexPageimg from './indexPage.png';
+import IndexPageimg from './Indexheader.png';
 import {IndexStore} from './indexStore.js'
 import {Stylesheetused}  from './stylesheetUsed.js';
 export const Index = () => {
@@ -10,16 +9,17 @@ export const Index = () => {
      <>
     <Tabview
     componentName="Index"
-    path="\ActiveLearningStudio-react-client\src\containers\Admin\index.js"
+    path="\src\components\Header\index.js"
     description="This is the Description of Compoennt"
     codeSnippet={codeSnippet}
-    libraryUsed={['react-bootstrap', 'react-redux','react-fontawesome']}
+    libraryUsed={['react-bootstrap', 'react-redux','react-fontawesome','react-router-dom','prop-types']}
     customHooks={[
-      {name:'./formik/createActivityItem',url:'www.google.com'},{name:'./formik/createOrg',url:'www.pakistan.com'},{name:'./formik/addRole',url:'www.google.com'},{name:'./formik/createuser',url:'www.google.com'}
+      {name:'/src/components/Header/multitenancyDropdown',url:'www.google.com'},{name:'/src/components/Header/searchForm',url:'www.google.com'},
+      {name:'/src/components/Header/searchForm',url:'www.google.com'},{name:'/src/components/Header/notification',url:''}
     ]}
     //customHooks={['./formik/createOrg','removeActiveAdminForm']}
     reduxStore= {[
-      {path:'/src/store/actions/admin',pathCode:IndexStore}
+      {path:'store/actions/organization',pathCode:IndexStore}
 
     ]}
     apiUsed= {[
@@ -28,7 +28,7 @@ export const Index = () => {
     images={IndexPageimg}
 
     stylesheetUsed= {Stylesheetused}
-    examples="https://multitenancy.currikistudio.org/org/currikistudio/admin"
+    examples="https://multitenancy.currikistudio.org/org/currikistudio"
 
     
     />
