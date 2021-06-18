@@ -1,32 +1,32 @@
 import React from 'react';
 import { Tabview } from '../../../component/Tabview'
-import {HelpSnippet} from './code.js'
-import helpimg from './help.png';
-import {SearchStore} from './searchStore.js'
+import {ProfileSnippet} from './code.js'
+import Profileimg from './profile.PNG';
 import {Stylesheetused}  from './stylesheetUsed.js';
-export const Help = () => {
+export const Myprofile = () => {
    return (
      <>
     <Tabview
-    componentName="Help"
-    path="\src\containers\App\help.js"
+    componentName="Myprofile"
+    path="\src\components\Header\index.js"
     description="This is the Description of Compoennt"
-    codeSnippet={HelpSnippet}
-    libraryUsed={['react-redux']}
-    customHooks={[ 
-    ]}
-    
-    reduxStore= {[
+    codeSnippet={ProfileSnippet}
+    libraryUsed={['react-bootstrap', 'react-router-dom','react-fontawesome']}
+    customHooks={[
       
-
+    ]}
+    //customHooks={['./formik/createOrg','removeActiveAdminForm']}
+    reduxStore= {[
     ]}
     apiUsed= {[
       
     ]}
-    images={helpimg}
+    images={Profileimg}
 
     stylesheetUsed= {Stylesheetused}
     examples="https://multitenancy.currikistudio.org/org/currikistudio/"
+
+    
     />
     
     </>

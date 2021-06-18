@@ -27,7 +27,7 @@ export const Notification = () => {
     images={IndexPageimg}
 
     stylesheetUsed= {Stylesheetused}
-    examples="https://multitenancy.currikistudio.org/org/currikistudio/admin"
+    examples="https://multitenancy.currikistudio.org/org/currikistudio"
 
     
     />

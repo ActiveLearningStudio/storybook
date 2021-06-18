@@ -15,7 +15,7 @@ export const Controller = () => {
     codeSnippet={codeSnippet}
     libraryUsed={['react-bootstrap','react-redux','react-fontawesome']}
     customHooks={[
-      {name:'containers/ManageOrganization/inviteAdmin',url:'www.google.com'},{name:'containers/ManageOrganization/addUser',url:'www.pakistan.com'}
+      {name:'containers/ManageOrganization/inviteAdmin',url:'http://localhost:6006/?path=/story/admin-formik--create-user'},{name:'containers/ManageOrganization/addUser',url:'www.pakistan.com'}
     ]}
     //customHooks={['./formik/createOrg','removeActiveAdminForm']}
     reduxStore= {[

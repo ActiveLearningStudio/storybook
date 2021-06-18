@@ -5,6 +5,7 @@ import './Tabview.css';
 import SyntaxHighlighter from 'react-syntax-highlighter';
 import { docco } from 'react-syntax-highlighter/dist/esm/styles/hljs';
 import { Libraries } from './libraries'
+import { linkTo } from '@storybook/addon-links'
 import LinkTo from '@storybook/addon-links/react'
 export const Tabview = (props) => {
 
@@ -78,8 +79,7 @@ export const Tabview = (props) => {
                               <li>
                                  <h5>{key.name}
 
-                                    <LinkTo story='../Formik' >link to library</LinkTo></h5>
-
+                                    <LinkTo title="Go to the Story" target="_blank" story='Formik' >link to library</LinkTo></h5>
                               </li>
 
                            </div>
