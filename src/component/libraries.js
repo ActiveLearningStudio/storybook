@@ -28,7 +28,14 @@ export const Libraries = (props) => {
       }
       else if (key === 'react-router-dom') {
         url='https://www.npmjs.com/package/react-router-dom'
+      }else if (key === 'react-placeholder') {
+        url='https://www.npmjs.com/package/react-placeholder'
+      }else if (key === 'react-beautiful-dnd') {
+        url='https://www.npmjs.com/package/react-beautiful-dnd'
       }
+
+      
+      
       
       
       
