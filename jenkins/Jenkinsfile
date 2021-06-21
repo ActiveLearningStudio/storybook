@@ -1,4 +1,4 @@
-node {
+node ("currikidev") {
     def app
     
     stage('Clone repository') {               
@@ -21,16 +21,25 @@ node {
         }    
          
     }
-    def labels = ['currikidev', 'currikionelxp', 'currikimopse']
-
-    for (label in labels) {
-        node(label) {
-            stage('Deploying Image ' + label){
-                echo 'Copy'
-            sh "yes | docker stack deploy --compose-file ~/curriki/docker-compose.yml currikistack" 
-            echo 'Copy completed'
+    
+     parallel(
+            "StageA": {
+                if(Jenkins.instance.getNode('currikidev').toComputer().isOnline()){
+                    node('currikidev') {
+                        stage ('currikidev') {
+                                echo 'Copy'
+                                sh "yes | docker stack deploy --compose-file ~/curriki/docker-compose-dev.yml currikistack" 
+                                echo 'Copy completed'
+                        }
+                    }
+                } else {
+                    stage ('currikidev') {
+                        echo "currikidev is offline"
+                        exit 1
+                    }
+                }
+                
             }
-        }
-    }
+    )
     
 }
