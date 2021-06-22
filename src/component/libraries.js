@@ -32,6 +32,8 @@ export const Libraries = (props) => {
         url='https://www.npmjs.com/package/react-placeholder'
       }else if (key === 'react-beautiful-dnd') {
         url='https://www.npmjs.com/package/react-beautiful-dnd'
+      }else if (key === 'react-slick') {
+        url='https://www.npmjs.com/package/react-slick'
       }
 
       

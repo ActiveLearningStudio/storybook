@@ -1,17 +1,17 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
 
-import { PreviewModal } from './PreviewModal.js';
+import { Index } from './index.js';
 
 export default {
-  title: 'My Projects/SamplePreviewModal',
-  component: PreviewModal,
+  title: 'Search/Index',
+  component: Index,
   argTypes: {
     backgroundColor: { control: 'color' },
   },
 } as Meta;
 
-const Template = () => <PreviewModal />;
+const Template = () => <Index />;
 
 
 export const component = Template.bind({});
