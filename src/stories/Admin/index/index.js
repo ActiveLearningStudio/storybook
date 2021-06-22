@@ -28,7 +28,7 @@ export const Index = () => {
     images={IndexPageimg}
 
     stylesheetUsed= {Stylesheetused}
-    examples="https://multitenancy.currikistudio.org/org/currikistudio/admin"
+    examples="https://dev.currikistudio.org/org/currikistudio/admin"
 
     
     />

@@ -55,7 +55,7 @@ AddRole.args = {
   //customHooks={['./formik/createOrg','removeActiveAdminForm']}
   images:Addroleimg,
   stylesheetUsed: Stylesheetused,
-  examples:"https://multitenancy.currikistudio.org/org/currikistudio/admin"
+  examples:"https://dev.currikistudio.org/org/currikistudio/admin"
 };
  export const CreateActivity = Template.bind({});
  CreateActivity.args = {
@@ -76,7 +76,7 @@ AddRole.args = {
   //customHooks={['./formik/createOrg','removeActiveAdminForm']}
   images:createActivityimg,
   stylesheetUsed: Stylesheetused,
-  examples:"https://multitenancy.currikistudio.org/org/currikistudio/admin"
+  examples:"https://dev.currikistudio.org/org/currikistudio/admin"
 };
  export const CreateActivityItem = Template.bind({});
  CreateActivityItem.args = {
@@ -99,7 +99,7 @@ AddRole.args = {
   ],
   images:ActivityItemimg,
   stylesheetUsed: Stylesheetused,
-  examples:"https://multitenancy.currikistudio.org/org/currikistudio/admin"
+  examples:"https://dev.currikistudio.org/org/currikistudio/admin"
 };
 
  export const CreateLms = Template.bind({});
@@ -125,7 +125,7 @@ AddRole.args = {
   ],
   images:createLms,
   stylesheetUsed: Stylesheetused,
-  examples:"https://multitenancy.currikistudio.org/org/currikistudio/admin"
+  examples:"https://dev.currikistudio.org/org/currikistudio/admin"
 };
  export const CreateOrg = Template.bind({});
  CreateOrg.args = {
@@ -147,7 +147,7 @@ AddRole.args = {
   ],
   images:createorg,
   stylesheetUsed: Stylesheetused,
-  examples:"https://multitenancy.currikistudio.org/org/currikistudio/admin"
+  examples:"https://dev.currikistudio.org/org/currikistudio/admin"
 };
  export const CreateUser = Template.bind({});
  CreateUser.args = {
@@ -169,5 +169,5 @@ AddRole.args = {
   ],
   images:CreateUserimg,
   stylesheetUsed: Stylesheetused,
-  examples:"https://multitenancy.currikistudio.org/org/currikistudio/admin"
+  examples:"https://dev.currikistudio.org/org/currikistudio/admin"
 };

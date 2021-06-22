@@ -26,7 +26,7 @@ export const Help = () => {
     images={helpimg}
 
     stylesheetUsed= {Stylesheetused}
-    examples="https://multitenancy.currikistudio.org/org/currikistudio/"
+    examples="https://dev.currikistudio.org/org/currikistudio/"
     />
     
     </>
