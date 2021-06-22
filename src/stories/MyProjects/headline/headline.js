@@ -9,7 +9,7 @@ export const Headline = () => {
      <>
     <Tabview
     componentName="Headline"
-    path="\src\containers\Projects\headlne.js"
+    path="\src\containers\Projects\headline.js"
     description="This is the Description of Compoennt"
     codeSnippet={HeadlineSnippet}
     libraryUsed={[ 'react-redux','react-fontawesome','react-router-dom']}
@@ -27,7 +27,7 @@ export const Headline = () => {
     images={Headlineimg}
 
     stylesheetUsed= {Stylesheetused}
-    examples="https://multitenancy.currikistudio.org/org/currikistudio"
+    examples="https://dev.currikistudio.org/org/currikistudio"
 
     
     />

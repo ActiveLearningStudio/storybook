@@ -31,7 +31,7 @@ export const Controller = () => {
     images={controllerimg}
 
     
-    examples="https://multitenancy.currikistudio.org/org/currikistudio/admin"
+    examples="https://dev.currikistudio.org/org/currikistudio/admin"
 
     
     />

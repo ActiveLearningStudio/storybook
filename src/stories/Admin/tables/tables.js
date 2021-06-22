@@ -30,7 +30,7 @@ export const Tables = () => {
     images={TablePageimg}
 
     stylesheetUsed= {Stylesheetused}
-    examples="https://multitenancy.currikistudio.org/org/currikistudio/admin"
+    examples="https://dev.currikistudio.org/org/currikistudio/admin"
 
     
     />

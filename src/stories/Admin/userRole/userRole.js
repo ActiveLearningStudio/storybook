@@ -28,7 +28,7 @@ export const UserRole = () => {
     images={userRole}
 
     stylesheetUsed= {Stylesheetused}
-    examples="https://multitenancy.currikistudio.org/org/currikistudio/admin"
+    examples="https://dev.currikistudio.org/org/currikistudio/admin"
 
     
     />
