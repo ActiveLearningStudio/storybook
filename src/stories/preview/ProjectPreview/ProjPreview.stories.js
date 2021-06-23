@@ -1,8 +1,11 @@
 import React from 'react';
 import {PreviewStore} from '../PreviewStore.js'
 import ProjPreviewimg from './projPreview.png';
+import previewShared from './previewShared.png'
 import { ProjPreview } from './ProjPreview.js';
 import {PreviewSnippet} from './previewSnippet.js'
+import {SharedSnippet} from './previewSharedSnippet.js'
+import {SharedStore} from './sharedStore.js'
 import { PreviewStyle } from '../stylesheet';
 export default {
   title: 'Preview/ProjectPreview',
@@ -40,6 +43,31 @@ index.args = {
   images:ProjPreviewimg,
   stylesheetUsed: PreviewStyle,
   examples:"https://dev.currikistudio.org/org/currikistudio/project/5939/preview"
+};
+
+export const ProjectPreviewShared = Template.bind({});
+
+ProjectPreviewShared.args = {
+  componentName:"ProjectPreviewShared",
+  path:"/src/containers/Preview/ProjectPreview/ProjectPreviewShared.js",
+  description:" Description of Component",
+  codeSnippet:SharedSnippet,
+  libraryUsed:['react-redux','react-bootstrap','react-fontawesome','react-router-dom','prop-types','react-slick'],
+  customHooks:[
+    {name:'/src/components/ActivityCard/index',url:'www.google.com'},{name:'/src/components/Unauthorized',url:'www.google.com'}
+  ],
+  reduxStore: [
+    {path:'/src/store/actions/project',pathCode:SharedStore}
+    
+    
+  ],
+  apiUsed:[
+
+  ],
+  //customHooks={['./formik/createOrg','removeActiveAdminForm']}
+  images:previewShared,
+  stylesheetUsed: PreviewStyle,
+  examples:"https://dev.currikistudio.org/project/56/shared"
 };
  
 
