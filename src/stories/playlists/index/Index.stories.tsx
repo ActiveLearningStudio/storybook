@@ -4,7 +4,7 @@ import { Story, Meta } from '@storybook/react';
 import { Index } from './index.js';
 
 export default {
-  title: 'Teams/TeamMemberView',
+  title: 'PlayLists/Index',
   component: Index,
   argTypes: {
     backgroundColor: { control: 'color' },
@@ -14,4 +14,4 @@ export default {
 const Template = () => <Index />;
 
 
-export const index = Template.bind({});
+export const component = Template.bind({});

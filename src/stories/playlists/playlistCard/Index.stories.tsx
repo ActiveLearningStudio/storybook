@@ -4,7 +4,7 @@ import { Story, Meta } from '@storybook/react';
 import { Index } from './index.js';
 
 export default {
-  title: 'Teams/TeamMemberView',
+  title: 'PlayLists/PlaylistCard',
   component: Index,
   argTypes: {
     backgroundColor: { control: 'color' },
