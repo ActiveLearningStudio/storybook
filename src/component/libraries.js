@@ -38,6 +38,8 @@ export const Libraries = (props) => {
         url='https://www.npmjs.com/package/redux-form'
       }else if (key === 'classnames') {
         url='https://www.npmjs.com/package/classnames'
+      }else if (key === 'lodash') {
+        url='https://www.npmjs.com/package/react-lodash'
       }
       
 
