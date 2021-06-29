@@ -40,14 +40,10 @@ export const Libraries = (props) => {
         url='https://www.npmjs.com/package/classnames'
       }else if (key === 'lodash') {
         url='https://www.npmjs.com/package/react-lodash'
+      }else if (key === 'validator') {
+        url='https://www.npmjs.com/package/validator'
       }
-      
-
-      
-      
-      
-      
-        
+    
     return ( 
         <li>
 
