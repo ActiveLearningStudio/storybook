@@ -42,7 +42,17 @@ export const Libraries = (props) => {
         url='https://www.npmjs.com/package/react-lodash'
       }else if (key === 'validator') {
         url='https://www.npmjs.com/package/validator'
+      }else if (key === 'query-string') {
+        url='https://www.npmjs.com/package/query-string'
+      }else if (key === 'react-animations') {
+        url='https://www.npmjs.com/package/react-animations'
+      }else if (key === 'styled-components') {
+        url='https://www.npmjs.com/package/styled-components'
+      }else if (key === 'recharts') {
+        url='https://www.npmjs.com/package/recharts'
       }
+
+      
     
     return ( 
         <li>
