@@ -8,7 +8,7 @@ export const Sidebar = () => {
   return (
     <>
       <Tabview
-        componentName="Footer"
+        componentName="Sidebar"
         path="\src\components\Sidebar\index.js"
         description="This is the Description of Compoennt"
         codeSnippet={SidebarSnippet}

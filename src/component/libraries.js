@@ -51,6 +51,16 @@ export const Libraries = (props) => {
             url = "https://www.npmjs.com/package/recharts";
           } else if (key === "tinymce-react") {
             url = "https://www.npmjs.com/package/@tinymce/tinymce-react";
+          } else if (key === "DropdownList") {
+            url = "https://www.npmjs.com/package/react-dropdownlist";
+          } else if (key === "react-confirm-alert") {
+            url = "https://www.npmjs.com/package/react-confirm-alert";
+          } else if (key === "react-share") {
+            url = "https://www.npmjs.com/package/react-share";
+          } else if (key === "_debounce") {
+            url = "https://www.npmjs.com/package/react-debounce-input";
+          } else if (key === "_sortBy") {
+            url = "https://www.npmjs.com/package/lodash.sortby";
           }
 
           return (
