@@ -1,4 +1,4 @@
-export const ResourceStore = `
+export const StoreSnippet = `
 import axios from 'axios';
 import Swal from 'sweetalert2';
 import Echo from 'laravel-echo';
