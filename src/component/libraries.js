@@ -61,10 +61,19 @@ export const Libraries = (props) => {
             url = "https://www.npmjs.com/package/react-debounce-input";
           } else if (key === "_sortBy") {
             url = "https://www.npmjs.com/package/lodash.sortby";
+          } else if (key === "pexels-api-wrapper") {
+            url = "https://www.npmjs.com/package/pexels-api-wrapper";
+          } else if (key === "axios") {
+            url = "https://www.npmjs.com/package/axios";
+          } else if (key === "@microsoft/immersive-reader-sdk") {
+            url =
+              "https://www.npmjs.com/package/@microsoft/immersive-reader-sdk";
+          } else if (key === "lib/placeholders") {
+            url = "https://www.npmjs.com/package/react-placeholder";
           }
 
           return (
-            <li>
+            <li key={key}>
               <h5>
                 {key}
 

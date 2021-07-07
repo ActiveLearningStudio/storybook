@@ -1,17 +1,17 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
 
-import { Index } from './index.js';
+import { ImmersiveReaderPreview } from './ImmersiveReaderPreview.js';
 
 export default {
-  title: 'Component/InviteDialogueGroup',
-  component: Index,
+  title: 'Component/Microsoft/ImmersiveReaderPreview',
+  component: ImmersiveReaderPreview,
   argTypes: {
     backgroundColor: { control: 'color' },
   },
 } as Meta;
 
-const Template = () => <Index/>;
+const Template = () => <ImmersiveReaderPreview/>;
 
 
 export const component = Template.bind({});

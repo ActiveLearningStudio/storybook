@@ -4,7 +4,7 @@ import { Story, Meta } from '@storybook/react';
 import { Index } from './index.js';
 
 export default {
-  title: 'Component/InviteDialogueGroup',
+  title: 'Component/InputField',
   component: Index,
   argTypes: {
     backgroundColor: { control: 'color' },

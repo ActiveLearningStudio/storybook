@@ -1,4 +1,4 @@
-export const ResourceStore = `
+export const StoreSnippet = `
 import axios from 'axios';
 import Swal from 'sweetalert2';
 import Echo from 'laravel-echo';
@@ -407,7 +407,7 @@ export const showBuildActivityAction = (
       const response = await resourceService.activityH5p(activityId);
       const { activity } = response;
       h5pid = activity;
-      const lib = '{activity.library_name} {activity.major_version}.{activity.minor_version};
+      const lib = '{activity.library_name} {activity.major_version}.{activity.minor_version}';
       dispatch(showBuildActivity(lib, activity.type, activity.h5p));
     } else {
       dispatch(showBuildActivity(editor, editorType, ''));
@@ -566,7 +566,9 @@ export const editResourceAction = (
 export const shareActivity = async (activityId) => {
   resourceService.shareActivity(activityId);
 
- 
+  // if (result.activity.id) {
+  //   const protocol = '{window.location.href.split('/')[0]}//';
+  
 };
 
 export const removeShareActivity = async (activityId, resourceName) => {
@@ -591,7 +593,7 @@ export const saveGenericResourceAction = (resourceData) => async (dispatch) => {
   const response = await axios.post(
     '{global.config.laravelAPIUrl}/activity',
     resourceData,
-    { headers: { Authorization: Bearer {token}' } },
+    { headers: { Authorization: 'Bearer {token}'' } },
   );
 
   if (response.data.status === 'success') {
@@ -634,7 +636,7 @@ export const updatedActivity = (userId) => async () => {
           message = 'This activity has been modified by other team member. Are you ok to refresh page to see what is updated?';
         } else if (path.includes('playlist/{msg.playlistId}'')) {
           message = 'This playlist has been modified by other team member. Are you ok to refresh page to see what is updated?';
-        } else if (path.includes(project/{msg.projectId})) {
+        } else if (path.includes('project/{msg.projectId}'')) {
           message = 'This project has been modified by other team member. Are you ok to refresh page to see what is updated?';
         }
 

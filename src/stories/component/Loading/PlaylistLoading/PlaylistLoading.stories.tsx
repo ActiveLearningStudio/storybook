@@ -1,17 +1,17 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
 
-import { Index } from './index.js';
+import { PlaylistLoading } from './PlaylistLoading.js';
 
 export default {
-  title: 'Component/InviteDialogueGroup',
-  component: Index,
+  title: 'Component/Loading/PlaylistLoading',
+  component: PlaylistLoading,
   argTypes: {
     backgroundColor: { control: 'color' },
   },
 } as Meta;
 
-const Template = () => <Index/>;
+const Template = () => <PlaylistLoading/>;
 
 
 export const component = Template.bind({});
