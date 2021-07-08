@@ -190,11 +190,17 @@ export const Tabview = (props) => {
         </Tab>
         <Tab eventKey="example" title="Examples">
           <div className="tab-text">
-            <h4>Design of the page</h4>
-            Visit the website to view design look{" "}
-            <a href={examples} target="_blank">
-              Go to the Page
-            </a>
+            {examples?.length > 0 ? (
+              <>
+                <h4>Design of the page</h4>
+                Visit the website to view design look{" "}
+                <a href={examples} target="_blank">
+                  Go to the Page
+                </a>
+              </>
+            ) : (
+              <Alert variant="primary">No Information Available</Alert>
+            )}
           </div>
         </Tab>
       </Tabs>

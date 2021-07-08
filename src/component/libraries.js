@@ -70,6 +70,20 @@ export const Libraries = (props) => {
               "https://www.npmjs.com/package/@microsoft/immersive-reader-sdk";
           } else if (key === "lib/placeholders") {
             url = "https://www.npmjs.com/package/react-placeholder";
+          } else if (key === "history") {
+            url = "https://www.npmjs.com/package/react-history";
+          } else if (key === "loadable") {
+            url = "https://www.npmjs.com/package/react-loadable";
+          } else if (key === "ReactGA") {
+            url = "https://www.npmjs.com/package/react-ga";
+          } else if (key === "react-animations") {
+            url = "https://www.npmjs.com/package/react-animations";
+          } else if (key === "styled-components") {
+            url = "https://www.npmjs.com/package/styled-components";
+          } else if (key === "config") {
+            url = "https://www.npmjs.com/package/config";
+          } else if (key === "socket.io-client") {
+            url = "https://www.npmjs.com/package/socket.io-client";
           }
 
           return (
