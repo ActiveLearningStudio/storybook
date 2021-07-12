@@ -84,6 +84,8 @@ export const Libraries = (props) => {
             url = "https://www.npmjs.com/package/config";
           } else if (key === "socket.io-client") {
             url = "https://www.npmjs.com/package/socket.io-client";
+          } else if (key === "laravel-echo") {
+            url = "https://www.npmjs.com/package/laravel-echo";
           }
 
           return (
