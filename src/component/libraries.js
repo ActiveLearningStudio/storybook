@@ -86,6 +86,12 @@ export const Libraries = (props) => {
             url = "https://www.npmjs.com/package/socket.io-client";
           } else if (key === "laravel-echo") {
             url = "https://www.npmjs.com/package/laravel-echo";
+          } else if (key === "redux-thunk") {
+            url = "https://www.npmjs.com/package/redux-thunk";
+          } else if (key === "react-google-login") {
+            url = "https://www.npmjs.com/package/react-google-login";
+          } else if (key === "react-switch") {
+            url = "https://www.npmjs.com/package/react-switch";
           }
 
           return (

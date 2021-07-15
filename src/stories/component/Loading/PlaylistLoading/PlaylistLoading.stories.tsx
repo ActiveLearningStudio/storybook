@@ -14,4 +14,4 @@ export default {
 const Template = () => <PlaylistLoading/>;
 
 
-export const component = Template.bind({});
+ const component = Template.bind({});

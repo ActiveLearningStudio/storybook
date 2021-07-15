@@ -1,17 +1,17 @@
 import React from 'react';
 import { Story, Meta } from '@storybook/react';
 
-import { Index } from './Index.js';
+import { Index } from './index';
 
 export default {
-  title: 'Component/TextAreaField',
+  title: 'Store/Reducers/Index',
   component: Index,
   argTypes: {
     backgroundColor: { control: 'color' },
   },
 } as Meta;
 
-const Template = () => <Index/>;
+const Template = () => <Index />;
 
 
- const component = Template.bind({});
+export const component = Template.bind({});
