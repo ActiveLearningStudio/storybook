@@ -7,7 +7,10 @@ export const BodyClass = () => {
       <Tabview
         componentName="useBodyClass"
         path="\src\helpers\BodyClass.js"
-        description="This is the Description of Compoennt"
+        description="Basically, this component is used for adding or removing classes 
+        from the body of the pages. This component will expect one parameter which will
+         be className. After checking specific criteria,
+         className will be added to the body of that page that will use this component."
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[]}

@@ -7,7 +7,11 @@ export const Xapi = () => {
       <Tabview
         componentName="Xapi"
         path="\src\helpers\xapi.js"
-        description="This is the Description of Compoennt"
+        description="This component is used to link H5P activities to their
+         supported platoform. On the specific inoformation check, activity will
+          be attached to their respective platform.
+         For example if the platform is the Google Classroom then  activity will be used
+         for the Google Classroom and will be used same like for LTI Client and Generic LMS."
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[]}
