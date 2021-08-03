@@ -9,7 +9,8 @@ export const ActivitiesDropdown = () => {
       <Tabview
         componentName="ActivitiesDropdown"
         path="\src\containers\Preview\PlaylistPreview\component\ActivitiesDropdown.js"
-        description="This is the Description of Compoennt"
+        description="The activity dropdown is used for showing dropdown around every activity where the user can perform different actions like preview, edit, delete and share. 
+        This component will use every time whenever we need to show dropdown around the activities."
         codeSnippet={CodeSnippet}
         libraryUsed={["prop-types"]}
         customHooks={[

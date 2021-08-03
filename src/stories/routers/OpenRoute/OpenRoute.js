@@ -7,7 +7,9 @@ export const OpenRoute = () => {
       <Tabview
         componentName="OpenRoute"
         path="\src\routers\OpenRoute.js"
-        description="This is the Description of Compoennt"
+        description="In any project, most of the pages/components are accessible to everyone without 
+        authenticated user. These components will be placed in an open route. In this open route component, 
+        you will see all those components which are accessible to everyone without a login credential. "
         codeSnippet={CodeSnippet}
         libraryUsed={["prop-types", "react-redux", "react-router-dom"]}
         customHooks={[]}

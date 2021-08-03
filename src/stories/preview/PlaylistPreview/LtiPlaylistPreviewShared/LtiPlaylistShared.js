@@ -10,7 +10,10 @@ export const LtiPlaylistShared = () => {
       <Tabview
         componentName="LtiPlaylistPreviewShared"
         path="\src\containers\Preview\PlaylistPreview\LtiPlaylistPreviewShared.js"
-        description="This is the Description of Compoennt"
+        description="In the shared playlist Preview, you will see the preview of those activities 
+        which are shared to any platform. There are a lot of other buttons in preview mode, 
+        which are to move the next activity, previous activity and then you can also collapse your
+         sidebar for a large view."
         codeSnippet={CodeSnippet}
         libraryUsed={[
           "react-redux",

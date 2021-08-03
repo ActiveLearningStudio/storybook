@@ -23,7 +23,12 @@ export const index = Template.bind({});
 index.args = {
   componentName:"Index",
   path:"/src/containers/Preview/ProjectPreview/index.js",
-  description:" Description of Component",
+  description:"In this component, you can see the preview of the project."+
+  "The project title will show at the top and some other links related to the project are"+
+  " also shown on the right side top corner where you can view the shared link and exit preview mode."+
+  "After this, you will also see the playlist and activities related to that playlist in the list form."+
+   "Every playlist is shown in accordion, when you click on accordion then you will be able to see"+
+   " activities related to that playlist in the given project.",
   codeSnippet:PreviewSnippet,
   libraryUsed:['react-redux','react-fontawesome','react-router-dom','prop-types','Swal','react-slick'],
   customHooks:[
@@ -50,7 +55,11 @@ export const ProjectPreviewShared = Template.bind({});
 ProjectPreviewShared.args = {
   componentName:"ProjectPreviewShared",
   path:"/src/containers/Preview/ProjectPreview/ProjectPreviewShared.js",
-  description:" Description of Component",
+  description:"In this component, you can see the preview of the shared project."+
+   "At the top, you will see the project title and project description."+
+  "After this, you will see the playlist and activities related to that playlist in the list form. "+
+  "Every playlist is shown in accordion, when you click on accordion then you will be able to see "+
+  "activities related to that playlist in the given project.",
   codeSnippet:SharedSnippet,
   libraryUsed:['react-redux','react-bootstrap','react-fontawesome','react-router-dom','prop-types','react-slick'],
   customHooks:[

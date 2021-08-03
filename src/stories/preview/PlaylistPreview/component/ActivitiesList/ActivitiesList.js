@@ -9,7 +9,11 @@ export const ActivitiesList = () => {
       <Tabview
         componentName="ActivitiesList"
         path="\src\containers\Preview\PlaylistPreview\component\ActivitiesList.js"
-        description="This is the Description of Compoennt"
+        description="When you view playlist preview then you will find a list of 
+        activities on the right sidebar, where you can see all the activities related to that playlist.
+        This component is used to show all the activities in the list column.
+        You can see the name of the activities in the list and
+         the onclick dropdown to perform different actions."
         codeSnippet={CodeSnippet}
         libraryUsed={["prop-types"]}
         customHooks={[

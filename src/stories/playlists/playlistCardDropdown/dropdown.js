@@ -10,7 +10,9 @@ export const Dropdown = () => {
     <Tabview
     componentName="PlaylistCardDropdown"
     path="\src\containers\Playlists\playlisCard\PlaylistCardDropdown.js"
-    description="This is the Description of Compoennt"
+    description="This component is used for displaying the dropdown of the playlist.
+     In the dropdown, you will see a vertical menu for different actions, where you can preview ,
+     edit, duplicate and publish the playlist."
     codeSnippet={DropdownSnippet}
     libraryUsed={['react-bootstrap', 'react-redux','react-fontawesome','react-router-dom','prop-types']}
     customHooks={[

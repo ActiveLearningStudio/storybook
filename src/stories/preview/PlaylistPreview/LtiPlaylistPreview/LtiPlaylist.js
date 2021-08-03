@@ -10,7 +10,11 @@ export const LtiPlaylist = () => {
       <Tabview
         componentName="LtiPlaylistPreview"
         path="\src\containers\Preview\PlaylistPreview\LtiPlaylistPreview.js"
-        description="This is the Description of Compoennt"
+        description="You will see the preview of a playlist in this component. 
+        In the header section, you will see the name of the project and playlist. 
+        On the right side, you will see all activities related to that project. 
+        While data related to each activity will be 
+        shown in the lti modal where you will find what activity is doing in this project."
         codeSnippet={CodeSnippet}
         libraryUsed={[
           "react-redux",

@@ -8,7 +8,12 @@ export const PreviousLink = () => {
       <Tabview
         componentName="PreviousLink"
         path="\src\containers\Preview\PlaylistPreview\component\PreviousLink.js"
-        description="This is the Description of Compoennt"
+        description="In this,there is an arrow button in the playlist preview where the user
+         can move to the previous activity. 
+        This component will ease your work and give you access to previous activities
+         which you have already seen. In the end, when there is no activity remaining in the previous 
+         list then a message will be shown below the button that will tell us you are at the beginning 
+         of the playlist. Furthermore, you can also switch to the previous playlist through this component."
         codeSnippet={CodeSnippet}
         libraryUsed={[
           "prop-types",

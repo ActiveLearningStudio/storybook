@@ -10,7 +10,11 @@ export const Index = () => {
     <Tabview
     componentName="Index"
     path="\src\containers\Playlists\index.js"
-    description="This is the Description of Compoennt"
+    description="This is the component for showing all the playlists of the project. 
+     At the top right corner, you will see three buttons related to showcasing, project preview, 
+     and create a new activity. On the index page, you will see all the playlists in card design.
+      In the playlist card, you will see the name of the playlist,
+     then the list of all the activities related to that playlist."
     codeSnippet={codeSnippet}
     libraryUsed={['react-bootstrap', 'react-redux','react-fontawesome','react-router-dom','prop-types','react-placeholder','swal','react-beautiful-dnd']}
     customHooks={[

@@ -7,7 +7,10 @@ export const Index = () => {
       <Tabview
         componentName="getErrors"
         path="\src\utils\index.js"
-        description="This is the Description of Compoennt"
+        description="In this component, you will see mostly animation. 
+        Here we are using fade-in animation for the div element. 
+        Whenever you need to use a smooth animation for any element,
+         you can use this component to apply animation."
         codeSnippet={CodeSnippet}
         libraryUsed={["react-animations", "styled-components"]}
         customHooks={[]}

@@ -9,7 +9,10 @@ export const Index = () => {
       <Tabview
         componentName="ResourcePreview"
         path="\src\containers\Preview\ResourcePreview\index.js"
-        description="This is the Description of Compoennt"
+        description="This is the component of the resource preview 
+        where you will be able to see the preview of the activity.
+         There is also a button to move to the next resource
+         and the previous resource by which you can easily move to the next and previous activity."
         codeSnippet={CodeSnippet}
         libraryUsed={[
           "react-redux",

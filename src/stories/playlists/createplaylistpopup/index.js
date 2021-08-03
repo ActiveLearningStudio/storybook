@@ -10,7 +10,10 @@ export const Index = () => {
     <Tabview
     componentName="Index"
     path="\src\containers\Playlists\index.js"
-    description="This is the Description of Compoennt"
+    description="In this component, you can create a playlist for any project. 
+    When you click on create playlist button then a popup will be displayed where
+     you can enter your playlist name and then click on add button. After this, your playlist
+     name will be displayed in the project, where you can add activity to the playlist."
     codeSnippet={codeSnippet}
     libraryUsed={['prop-types']}
     customHooks={[

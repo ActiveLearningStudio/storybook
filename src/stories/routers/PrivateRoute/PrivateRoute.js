@@ -7,7 +7,10 @@ export const PrivateRoute = () => {
       <Tabview
         componentName="PrivateRoute"
         path="\src\routers\PrivateRoute.js"
-        description="This is the Description of Compoennt"
+        description="In the private route component, you will see all those components which 
+        are private for that project. In this, you will see the login and subscribe component.
+         These components are placed in a private route for security reasons.
+         An only authenticated users can get access to this component. "
         codeSnippet={CodeSnippet}
         libraryUsed={["prop-types", "react-redux", "react-router-dom"]}
         customHooks={[

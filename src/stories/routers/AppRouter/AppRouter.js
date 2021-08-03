@@ -7,7 +7,11 @@ export const AppRouter = () => {
       <Tabview
         componentName="AppRouter"
         path="\src\routers\AppRouter.js"
-        description="This is the Description of Compoennt"
+        description="This is the component for the app route where all the routes of your project
+         will be mentioned here. When you go to any page then this component will check the redirect
+          link and process that route accordingly. The app route is the entry point of every project
+           from where you can control the redirection of any page. On the top, 
+        you will import all the components and use them in route to redirect properly."
         codeSnippet={CodeSnippet}
         libraryUsed={[
           "prop-types",
