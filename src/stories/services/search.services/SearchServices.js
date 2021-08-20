@@ -8,7 +8,10 @@ export const SearchServices = () => {
       <Tabview
         componentName="SearchServices"
         path="\src\services\search.services.js"
-        description="This is the Description of Compoennt"
+        description="This service module is used for search purposes. 
+        You can get your advanced search data through this service module.
+         Whenever you will search through the front end then APIs used
+          in this module will be called and then provide you the search result."
         codeSnippet={CodeSnippet}
         libraryUsed={["config", "swal"]}
         customHooks={[]}

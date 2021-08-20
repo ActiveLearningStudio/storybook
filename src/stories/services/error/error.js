@@ -8,7 +8,9 @@ export const Error = () => {
       <Tabview
         componentName="errorCatcher"
         path="\src\services\error.js"
-        description="This is the Description of Compoennt"
+        description="This service will be used for general error handling during the calling of APIs. 
+        Whenever your APIs will be failed then this service will be called to show some error in swal. 
+        Swal is a small box to show any prompt message."
         codeSnippet={CodeSnippet}
         libraryUsed={["swal"]}
         customHooks={[]}

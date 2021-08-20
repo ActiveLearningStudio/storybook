@@ -8,7 +8,8 @@ export const AccountServices = () => {
       <Tabview
         componentName="AccountServices"
         path="\src\services\account.services.js"
-        description="This is the Description of Compoennt"
+        description="This component is used for services where you will call API for getting account-related details.
+         After calling this API you will get the User LMS setting which we will use when we needed."
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[]}

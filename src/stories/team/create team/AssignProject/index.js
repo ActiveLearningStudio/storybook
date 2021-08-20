@@ -9,7 +9,10 @@ export const Index = () => {
     <Tabview
     componentName="Index"
     path="\src\containers\Teams\components\AssignProjects\index.js"
-    description="This is the Description of Compoennt"
+    description="In this component, you can add a project to your team during the creation 
+    of a team. You will see a list of the project from where you can easily choose your project
+     and add it to your team. After selecting multiple projects,
+     you can click on the finish button to complete your process of creation of the team."
     codeSnippet={IndexSnippet}
     libraryUsed={['prop-types','react-fontawesome']}
     customHooks={[

@@ -7,7 +7,11 @@ export const HttpServices = () => {
       <Tabview
         componentName="HttpServices"
         path="\src\services\http.services.js"
-        description="This is the Description of Compoennt"
+        description="In the HTTP services module, you will see the necessary information to call any API. 
+        You will see the auth Header which will be set in this module.
+        Also, authentication tokens and base URL will be given in this module to run other APIs.
+         So this is the main file to access your APIs data. You will use this file as a bridge every
+          time to access any of your API files."
         codeSnippet={CodeSnippet}
         libraryUsed={["axios", "socket.io-client"]}
         customHooks={[]}

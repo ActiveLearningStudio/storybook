@@ -8,7 +8,10 @@ export const AuthServices = () => {
       <Tabview
         componentName="AuthServices"
         path="\src\services\auth.services.js"
-        description="This is the Description of Compoennt"
+        description="In auth. services, you will call those APIs that will be used for authentication purposes. 
+        So in this service, you will call login API to login into your account. You will call register API for creating a new account.
+        Other APIs which are using in this service have reset the password, update profile, 
+        forget the password, subscribe and search users, etc."
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[

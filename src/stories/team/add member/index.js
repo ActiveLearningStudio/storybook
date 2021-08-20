@@ -10,7 +10,9 @@ export const Index = () => {
     <Tabview
     componentName="Index"
     path="\src\containers\Teams\AddMembers\index.js"
-    description="This is the Description of Compoennt"
+    description="In this component, we can add members to the team during the creation of a new team.
+     Simply you need to enter the member name/email in the search box and then click on add button. 
+     In this way, you can easily add a member to the team."
     codeSnippet={IndexSnippet}
     libraryUsed={['prop-types','react-redux','swal','react-fontawesome']}
     customHooks={[

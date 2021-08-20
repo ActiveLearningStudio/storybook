@@ -8,7 +8,9 @@ export const ResourceServices = () => {
       <Tabview
         componentName="ResourceServices"
         path="\src\services\resource.services.js"
-        description="This is the Description of Compoennt"
+        description="In the Resource Services module, you will see all the APIs 
+        related to resource activity. Whenever you will need data related to activity then you will use this service module. You can create, edit and delete activities through this service module. On the other hand,
+         you can also get the H5P token and H5P settings details through this service module."
         codeSnippet={CodeSnippet}
         libraryUsed={["config", "swal"]}
         customHooks={[

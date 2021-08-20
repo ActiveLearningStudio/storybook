@@ -8,7 +8,9 @@ export const StorageServices = () => {
       <Tabview
         componentName="StorageServices"
         path="\src\services\storage.services.js"
-        description="This is the Description of Compoennt"
+        description=" You will set data in local storage through API used in this service module. 
+        When you will set some data in local storage then you will call setItem API and whenever you want to delete local storage then you will call removeItem API. 
+        For getting storage data, then you will call getItem API."
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[]}

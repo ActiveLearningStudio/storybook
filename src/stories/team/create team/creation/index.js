@@ -9,7 +9,10 @@ export const Index = () => {
     <Tabview
     componentName="Index"
     path="\src\containers\Teams\components\Creation\index.js"
-    description="This is the Description of Compoennt"
+    description="In this component, you will see a form to create your team. 
+    In this form, you will enter the team name and team description. You will write
+     a small description for the team and then click on the continue button. In this way,
+      you will complete the first part for the creation of the team and will move to the next one."
     codeSnippet={IndexSnippet}
     libraryUsed={['prop-types','react-redux','redux-form',]}
     customHooks={[

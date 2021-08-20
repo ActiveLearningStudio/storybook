@@ -8,7 +8,8 @@ export const AdminServices = () => {
       <Tabview
         componentName="AdmintServices"
         path="\src\services\admin.services.js"
-        description="This is the Description of Compoennt"
+        description="In the admin.services component, you will call those APIs that will be used for admin purposes.
+         The details which you will get will be used in the admin area."
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[]}

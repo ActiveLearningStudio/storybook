@@ -8,7 +8,9 @@ export const GapiServices = () => {
       <Tabview
         componentName="gapiServices"
         path="\src\services\gapi.services.js"
-        description="This is the Description of Compoennt"
+        description="In Gapi services, you will find different APIs related to studentCourse,
+         h5P Resource setting, etc. On the other hand, you will also see other APIs related to getOutcomeSummary and turnIn. 
+        The response data will be used in courses used in the project."
         codeSnippet={CodeSnippet}
         libraryUsed={["config", "axios", "swal"]}
         customHooks={[]}

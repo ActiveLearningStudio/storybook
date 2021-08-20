@@ -9,7 +9,9 @@ export const Index = () => {
     <Tabview
     componentName="Index"
     path="\src\containers\Teams\components\CreateTeamSlider\index.js"
-    description="This is the Description of Compoennt"
+    description="In this component, you will create a slider bar for the creation of a team 
+    where you will see three links create team, invite members and add a project. 
+    When you click on one of them then,that link will be active and show the respective form for creation of team."
     codeSnippet={IndexSnippet}
     libraryUsed={['prop-types','classnames']}
     customHooks={[

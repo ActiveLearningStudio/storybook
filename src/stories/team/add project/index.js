@@ -10,7 +10,12 @@ export const Index = () => {
     <Tabview
     componentName="Index"
     path="\src\containers\Teams\AddProjects\index.js"
-    description="This is the Description of Compoennt"
+    description="In AddProject component, you can add a project to the team. 
+    There is a search box on the top where you can search for your most favorite project 
+    and add it to the team. On the other hand, if you didn't want to search then a list of 
+    all projects will be open where you can easily choose your project and then add it to the team.
+     In this component, we are calling another component with the name 'AssignProject' 
+     which is used to show details for all projects."
     codeSnippet={IndexSnippet}
     libraryUsed={['prop-types','react-redux','react-router-dom','react-bootstrap']}
     customHooks={[

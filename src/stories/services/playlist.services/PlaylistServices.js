@@ -8,7 +8,11 @@ export const PlaylistServices = () => {
       <Tabview
         componentName="PlaylistServices"
         path="\src\services\playlist.services.js"
-        description="This is the Description of Compoennt"
+        description="You will get any data related to the playlist of the project here in this service module. 
+        If you are going to create the playlist then create API will be called. 
+        To get, update, delete and reorder related APIs are also present in this services module. 
+        On the other hand, if you are using your playlist in the Lti area then you will also be called
+         load LTI  API for displaying  the playlist in LTI mode."
         codeSnippet={CodeSnippet}
         libraryUsed={["config"]}
         customHooks={[]}

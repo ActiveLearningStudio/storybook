@@ -8,7 +8,10 @@ export const NotificationServices = () => {
       <Tabview
         componentName="NotificationServices"
         path="\src\services\notification.services.js"
-        description="This is the Description of Compoennt"
+        description="This services module is used for notification purposes. 
+        When you will read all notifications then read all notifications will be called which 
+        you will see on the notification area. If you want to delete only one notification, 
+        then you will call the delete notification API used in this service module."
         codeSnippet={CodeSnippet}
         libraryUsed={["config"]}
         customHooks={[]}

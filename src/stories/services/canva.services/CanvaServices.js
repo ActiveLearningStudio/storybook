@@ -8,7 +8,8 @@ export const CanvaServices = () => {
       <Tabview
         componentName="CanvasServices"
         path="\src\services\canvas.services.js"
-        description="This is the Description of Compoennt"
+        description="In this, you will call those APIs that are used to process the data for canvas. 
+        Mostly used APIs in this service are  getH5PSettings and getLtiuUmmary."
         codeSnippet={CodeSnippet}
         libraryUsed={["axios", "config"]}
         customHooks={[]}

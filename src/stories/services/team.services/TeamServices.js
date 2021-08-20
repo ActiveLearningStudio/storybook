@@ -8,7 +8,10 @@ export const TeamServices = () => {
       <Tabview
         componentName="TeamServices"
         path="\src\services\team.services.js"
-        description="This is the Description of Compoennt"
+        description="In this service module, you will call all those APIs that are related to the team section area.
+         Whenever you will create a team then create API will be called in this module. 
+         If you want to update team data then you will call update team API. 
+         In this way, other APIs used in this module are invite members, remove members, add a project, remove a member from the project, etc."
         codeSnippet={CodeSnippet}
         libraryUsed={["config"]}
         customHooks={[]}

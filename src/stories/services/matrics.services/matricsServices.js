@@ -8,7 +8,9 @@ export const MatricServices = () => {
       <Tabview
         componentName="MatricsServices"
         path="\src\services\matrics.services.js"
-        description="This is the Description of Compoennt"
+        description="In this service module, there are a lot of APIs related to matrics data.
+         When you will need activity view data then logActivityView will be called and when we will need playlist view data then playlistViewlog will be called as API.
+         So in this way, there are other different APIs that are used in this module."
         codeSnippet={CodeSnippet}
         libraryUsed={["config"]}
         customHooks={[]}

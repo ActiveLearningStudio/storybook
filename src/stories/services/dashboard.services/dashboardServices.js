@@ -8,7 +8,8 @@ export const DashboardServices = () => {
       <Tabview
         componentName="DashboarServices"
         path="\src\services\dasboard.services.js"
-        description="This is the Description of Compoennt"
+        description="In dashboard services, you will get project data by calling two APIs named with getUserProject and getProject. After calling these APIs,
+         you can use this data in a further area where you will need project details."
         codeSnippet={CodeSnippet}
         libraryUsed={["config"]}
         customHooks={[]}
