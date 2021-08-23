@@ -9,7 +9,10 @@ export const GoogleLogin = () => {
       <Tabview
         componentName="GoogleLoginModal"
         path="\src\components\models\GoogleLoginModal.js"
-        description="This is the Description of Compoennt"
+        description="In this component, you will see a small description and a google
+         login button. When you click on the Google login button then you will see  a modal
+          to share your project to google classroom. If you are sure to share your project to google classroom then you can click on confirm button. 
+        In this way, you will share your project to google classroom through this component. "
         codeSnippet={CodeSnippet}
         libraryUsed={[
           "prop-types",

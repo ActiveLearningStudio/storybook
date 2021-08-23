@@ -10,7 +10,10 @@ export const SelectActivity = () => {
       <Tabview
         componentName="ResourceSelectActivity"
         path="\src\components\ResourceCard\AddResource\ResourceSelectActivity.js"
-        description="This is the Description of Compoennt"
+        description="In this component, the resource activity navbar is imported and will
+         display the navbar at the top. After this, you will see the list of activities and 
+         a search option in the top right corner. You can also search for any activity there 
+        and then pick your most favorite activity which you want to add to your project. "
         codeSnippet={CodeSnippet}
         libraryUsed={[
           "prop-types",

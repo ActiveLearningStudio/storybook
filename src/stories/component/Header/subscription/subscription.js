@@ -11,7 +11,9 @@ export const Subscription = () => {
     <Tabview
     componentName="Subscription"
     path="\src\components\Header\multitenancyDropdown.js"
-    description="This is the Description of Compoennt"
+    description="In this component, you will see organization subscribe by any user profile.
+     When you click on it,
+     you will see all the organization lists to which you have been subscribed."
     codeSnippet={SubSnippet}
     libraryUsed={['react-bootstrap', 'react-redux','react-router-dom']}
     customHooks={[

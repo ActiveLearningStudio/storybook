@@ -10,7 +10,12 @@ export const Search = () => {
     <Tabview
     componentName="Search Form"
     path="\src\components\Header\searchForm.js"
-    description="This is the Description of Compoennt"
+    description="In this, you will see the component for the search modal.
+     When you click on the search bar in the header section then a modal will appear. 
+     In this modal, you will see three radio buttons for a different search option.
+      By switching into these radio buttons a form which is created through formik modal
+       will be opened to enter search details. After entering details, you will hit the 
+       search button to get your expected search results."
     codeSnippet={SearchSnippet}
     libraryUsed={['react-bootstrap', 'react-redux','react-router-dom','swal','formik','react-fontawesome']}
     customHooks={[

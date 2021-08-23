@@ -10,7 +10,11 @@ export const ActivityType = () => {
       <Tabview
         componentName="ResourceActivityType"
         path="\src\components\ResourceCard\AddResource\ResourceActivityType.js"
-        description="This is the Description of Compoennt"
+        description="During the creation of new activity, this component will help us
+         to pick activity type from the list. In this component, you will see the different
+          types of activity from which you will select one of them. Many types of activity will
+           be available in the list like audio,
+         video, image, text, etc. So you have to select one of them. "
         codeSnippet={TypeSnippet}
         libraryUsed={[
           "prop-types",

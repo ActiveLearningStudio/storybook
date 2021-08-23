@@ -10,7 +10,10 @@ export const Index = () => {
       <Tabview
         componentName="InviteDialog"
         path="\src\components\InviteDialog\index.js"
-        description="This is the Description of Compoennt"
+        description="In the Invite dialogue box, you can invite any team member through
+         this component. There is a search box where a user can search for any team member 
+         and then click on the invite button to invite that selected team member. 
+        After this, you can also add a special note with your invite to personalize your invitation."
         codeSnippet={CodeSnippet}
         libraryUsed={[
           "prop-types",

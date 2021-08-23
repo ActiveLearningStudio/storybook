@@ -8,7 +8,9 @@ export const Index = () => {
       <Tabview
         componentName="InputField"
         path="\src\components\InputField\index.js"
-        description="This is the Description of Compoennt"
+        description="This is the component for the input field.
+         In most cases, when you need any input box then you can call this component. 
+         You will send your props to this component and then this component will show the input box accordingly."
         codeSnippet={CodeSnippet}
         libraryUsed={["prop-types"]}
         customHooks={[]}

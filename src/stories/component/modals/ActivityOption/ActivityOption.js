@@ -9,7 +9,9 @@ export const ActivityOption = () => {
       <Tabview
         componentName="MyVerticallyCenteredModal"
         path="\src\components\models\activityOptions.js"
-        description="This is the Description of Compoennt"
+        description="In the activity option component, you will see two options related to 
+        the activity where you will check the demo of the activity and video related to that activity.
+         In the demo, you can see all the data related to that activity."
         codeSnippet={CodeSnippet}
         libraryUsed={["prop-types", "react-bootstrap"]}
         customHooks={[

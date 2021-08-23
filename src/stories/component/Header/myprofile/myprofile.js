@@ -9,7 +9,10 @@ export const Myprofile = () => {
     <Tabview
     componentName="Myprofile"
     path="\src\components\Header\index.js"
-    description="This is the Description of Compoennt"
+    description="This is the profile dropdown component where the different options will
+     be shown related to your profile. Through this component, you can easily see links 
+     related to your profile like change password, my account details, etc.
+      Also, this component will import into the index of the header section."
     codeSnippet={ProfileSnippet}
     libraryUsed={['react-bootstrap', 'react-router-dom','react-fontawesome']}
     customHooks={[

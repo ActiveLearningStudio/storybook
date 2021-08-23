@@ -9,7 +9,8 @@ export const Activitybuild = () => {
       <Tabview
         componentName="ResourceActivityBuild"
         path="\src\components\ResourceCard\AddResource\ResourceActivityBuild.js"
-        description="This is the Description of Compoennt"
+        description="This component is used to build activity. This is the last step to create your new atcivity. In this component,
+         you just need to click on build activity to create your new activity."
         codeSnippet={CodeSnippet}
         libraryUsed={[
           "prop-types",

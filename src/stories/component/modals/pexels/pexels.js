@@ -10,7 +10,10 @@ export const Pexels = () => {
       <Tabview
         componentName="Pexels"
         path="\src\components\models\pexels.js"
-        description="This is the Description of Compoennt"
+        description="Through this component, you can change the thumbnail of any project or any resource.
+         The component will accept props to change the thumbnail of the project/resource.
+          There is a search box to select any thumbnail, when you search and click on the image below then 
+          it will be select as a new thumbnail. After this there is a submit button through this you will update your thumbnail for your project."
         codeSnippet={CodeSnippet}
         libraryUsed={[
           "prop-types",

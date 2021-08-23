@@ -9,7 +9,10 @@ export const EmbedProject = () => {
       <Tabview
         componentName="EmbedProject"
         path="\src\components\SharePreviewPopup\EmbedProject.js"
-        description="This is the Description of Compoennt"
+        description="In this component, you will see a modal to embed your project anywhere else. 
+        When you click on embed your project, then you will find an Html snippet to embed that
+         project anywhere else.
+         In the end, an ok button will be shown to close the modal. "
         codeSnippet={CodeSnippet}
         libraryUsed={["prop-types", "react-fontawesome", "swal"]}
         customHooks={[]}

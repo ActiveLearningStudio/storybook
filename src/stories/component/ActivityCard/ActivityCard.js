@@ -9,7 +9,10 @@ export const ActivityCard = () => {
       <Tabview
         componentName="ActivityCard"
         path="\src\components\ActivityCard\index.js"
-        description="This is the Description of Compoennt"
+        description="This component is used to display the list of activities in the playlist module.
+         In the list, you will see a card for every activity where you will see the title of the activity
+          and one dropdown to perform quick action on the activity. Through these actions, you can remove, 
+          preview, and edit activities attach to the playlist."
         codeSnippet={CodeSnippet}
         libraryUsed={["prop-types", "react-router-dom", "react-redux"]}
         customHooks={[

@@ -9,7 +9,11 @@ export const ResourceSidbar = () => {
       <Tabview
         componentName="AddResourceSidebar"
         path="\src\components\ResourceCard\AddResource\AddResourceSidebar.js"
-        description="This is the Description of Compoennt"
+        description="This component is used to show the navbar which will show 
+        on the top during the creation of new activity. There are four links in this navbar.
+         whenever you will click on any activity creation step then the link related to the
+          respective step will be active. 
+        In this way, you will see the form below related to the active link."
         codeSnippet={CodeSnippet}
         libraryUsed={[
           "prop-types",

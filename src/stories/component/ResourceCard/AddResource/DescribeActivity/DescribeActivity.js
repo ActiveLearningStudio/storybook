@@ -10,7 +10,10 @@ export const DescribeActivity = () => {
       <Tabview
         componentName="ResourceDescribeActivity"
         path="\src\components\ResourceCard\AddResource\ResourceDescribeActivity.js"
-        description="This is the Description of Compoennt"
+        description="In this component, you will see a form describing the new activity.
+        In this form, you will enter your activity title, subject, education level, and in the end,
+         you will select the thumbnail of that activity. 
+        After filling in these details you will see a  continue button to move to the next step."
         codeSnippet={CodeSnippet}
         libraryUsed={[
           "prop-types",

@@ -10,7 +10,9 @@ export const Index = () => {
     <Tabview
     componentName="Index"
     path="\src\components\Header\index.js"
-    description="This is the Description of Compoennt"
+    description="In the index component of the header section, all the components used in the header section will 
+    be imported. A dropdown for the profile will also be made where the user name and profile data will be used.
+     From this dropdown, you can easily log out and change your username and password."
     codeSnippet={codeSnippet}
     libraryUsed={['react-bootstrap', 'react-redux','react-fontawesome','react-router-dom','prop-types']}
     customHooks={[

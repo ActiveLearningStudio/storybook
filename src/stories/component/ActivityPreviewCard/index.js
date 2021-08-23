@@ -9,7 +9,10 @@ export const Index = () => {
       <Tabview
         componentName="ActivityPreviewCard"
         path="\src\components\ActivityPreviewCard\index.js"
-        description="This is the Description of Compoennt"
+        description="In this component, you will see the preview of the activity in LTI. 
+        All the data related to one activity will be display at one time in LTI and there 
+        are options to move to the next and previous activity. In this way, you will be able 
+        to see all activities related to the respective playlist in LTI Modal."
         codeSnippet={CodeSnippet}
         libraryUsed={["prop-types", "react-router-dom", "react-redux"]}
         customHooks={[

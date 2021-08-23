@@ -10,7 +10,10 @@ export const Sidebar = () => {
       <Tabview
         componentName="Sidebar"
         path="\src\components\Sidebar\index.js"
-        description="This is the Description of Compoennt"
+        description="All the links in the sidebar are managed through this component. 
+        There is also a toggle button to move the sidebar left for maximizing screen width.
+        All the links in the sidebar are managed through the router. In the sidebar, 
+        you will see links related to my projects, teams, groups, etc."
         codeSnippet={SidebarSnippet}
         libraryUsed={[
           "prop-types",
