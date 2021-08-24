@@ -10,7 +10,11 @@ export const ShareLink = () => {
       <Tabview
         componentName="ShareLink"
         path="\src\components\ResourceCard\ShareLink.js"
-        description="This is the Description of Compoennt"
+        description="To publish any resource, a prompt box is used to confirming your publication.
+         In this component, a sweet alert is used to confirm your publication.
+          If you are configured to publish any resource then through this component
+           you can publish any resource. Otherwise, you will see an alert message to configure your 
+           resource from the admin side"
         codeSnippet={CodeSnippet}
         libraryUsed={["prop-types", "react-redux", "react-fontawesome", "swal"]}
         customHooks={[]}

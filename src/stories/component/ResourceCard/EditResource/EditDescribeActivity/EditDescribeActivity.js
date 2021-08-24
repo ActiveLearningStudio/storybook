@@ -10,7 +10,13 @@ export const DescribeActivity = () => {
       <Tabview
         componentName="ResourceDescribeActivity"
         path="\src\components\ResourceCard\EditResource\ResourceDescribeActivity.js"
-        description="This is the Description of Compoennt"
+        description="In order to edit the description of a resource activity, this component 
+        will be more helpful. Through this component, you can easily edit the description of the
+         resource activity. When you click on edit activity then a form will be opened with data 
+         related to the respective activity. You can edit this form to update the data of the 
+         respective activity. You can change the title, subject,  education level, and thumbnail 
+         of the resource activity. After filling this form you will see a save button at the end
+          of the form. Click that button to save your changes."
         codeSnippet={CodeSnippet}
         libraryUsed={[
           "prop-types",

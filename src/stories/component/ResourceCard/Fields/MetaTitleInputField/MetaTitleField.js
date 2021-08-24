@@ -10,7 +10,10 @@ export const MetaTitleField = () => {
       <Tabview
         componentName="MetaTitleInputField"
         path="\src\components\ResourceCard\fields\MetaTitleInputField.js"
-        description="This is the Description of Compoennt"
+        description="This component is used to give the title of the resource activity. 
+        Input field is taken which will use props data which is coming through this component.
+        During the creation of new activity, 
+        this component will be called to set the title of the resource activity."
         codeSnippet={CodeSnippet}
         libraryUsed={["prop-types", "react-redux"]}
         customHooks={[]}

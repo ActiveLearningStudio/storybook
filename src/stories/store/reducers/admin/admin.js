@@ -9,7 +9,8 @@ export const Admin = () => {
       <Tabview
         componentName="Admin"
         path="\src\store\Reducers\admin.js"
-        description="This is the Description of Compoennt"
+        description="In this component, all the states for the admin module will be changed. In the start, initial states are mentioned and these states will change through this component by using action. In this component,
+         the switch statement will match the exact action which needs to be changed."
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[]}

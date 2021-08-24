@@ -10,7 +10,9 @@ export const MetaSubjectField = () => {
       <Tabview
         componentName="MetaSubjectsField"
         path="\src\components\ResourceCard\fields\MetaSubjectsField.js"
-        description="This is the Description of Compoennt"
+        description="This component is used to display the subject list during the
+         creation of new activity. You will call this component whenever you will need the subject list in resource activity form. The dropdown list comes from the react widget library. 
+        You will select any subject to fill the form for creating a new activity."
         codeSnippet={CodeSnippet}
         libraryUsed={["prop-types", "react-redux", "DropdownList"]}
         customHooks={[]}

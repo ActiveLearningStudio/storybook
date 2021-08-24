@@ -9,7 +9,9 @@ export const TinyEditor = () => {
       <Tabview
         componentName="TinyEditor"
         path="\src\components\ResourceCard\AddResource\Editors\TinyEditor.js"
-        description="This is the Description of Compoennt"
+        description="The tiny editor is the same as the H5P editor but this is used to display data of immersive reader resources.
+         When we need to display data then this component will be used to load resource data in 
+         the tiny editor through an iframe."
         codeSnippet={CodeSnippet}
         libraryUsed={[
           "prop-types",

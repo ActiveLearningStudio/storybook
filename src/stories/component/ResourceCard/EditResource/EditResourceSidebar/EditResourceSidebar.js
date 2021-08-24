@@ -10,7 +10,10 @@ export const ResourceSidbar = () => {
       <Tabview
         componentName="EditResourceSidebar"
         path="\src\components\ResourceCard\EditResource\EditResourceSidebar.js"
-        description="This is the Description of Compoennt"
+        description="This component is used to create an activity sidebar with two to three 
+        links for updating resource activity. The links are created through div and span tag 
+        which will be displayed as the top navbar of the edit activity form. So these links will
+         be used to switch to describe activity and activity build form."
         codeSnippet={CodeSnippet}
         libraryUsed={[
           "prop-types",

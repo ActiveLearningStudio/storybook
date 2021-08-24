@@ -8,7 +8,8 @@ export const ActionTypes = () => {
       <Tabview
         componentName="ActionTypes"
         path="\src\store\actionTypes.js"
-        description="This is the Description of Compoennt"
+        description="In this component, all the action components used in the actions folder are exported.
+         In this way, you can use all the actions outside of this directory"
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[]}

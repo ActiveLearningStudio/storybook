@@ -10,7 +10,9 @@ export const Dropdown = () => {
       <Tabview
         componentName="ResourceCardDropdown"
         path="\src\components\ResourceCard\AddResource\dropdown.js"
-        description="This is the Description of Compoennt"
+        description="To create a dropdown against any resource activity this component will be used.
+         Through this dropdown, you can perform different actions like preview, edit, delete and share, etc. So you can easily edit, delete and preview any resource through this component.
+         The dropdown is created through react-bootstrap which is a library of react design-system."
         codeSnippet={CodeSnippet}
         libraryUsed={[
           "prop-types",

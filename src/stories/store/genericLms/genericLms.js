@@ -8,7 +8,8 @@ export const GenericLms = () => {
       <Tabview
         componentName="genericLMSActionTypes"
         path="\src\store\genericLMSActionTypes.js"
-        description="This is the Description of Compoennt"
+        description="This is not the component 
+        but components related to  Generic LMS Setting will be exported here in this file."
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[]}

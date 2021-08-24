@@ -8,7 +8,10 @@ export const Canvas = () => {
       <Tabview
         componentName="Canvas"
         path="\src\store\reducers\canvas.js"
-        description="This is the Description of Compoennt"
+        description="This reducer will update the state of the canvas component.
+         Action called from the UI side will be placed in this component.
+          Then this component will filter that action through a switch and 
+          will update that state accordingly."
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[]}

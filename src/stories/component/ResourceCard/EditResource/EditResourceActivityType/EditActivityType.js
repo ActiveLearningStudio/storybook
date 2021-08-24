@@ -9,7 +9,13 @@ export const ActivityType = () => {
       <Tabview
         componentName="ResourceActivityType"
         path="\src\components\ResourceCard\EditResource\ResourceActivityType.js"
-        description="This is the Description of Compoennt"
+        description="In this component, you can easily update the type of resource activity. 
+        When you click on edit activity then you will see four steps to update your activity.
+         In order to update the type of activity, click on the activity type link then the list
+          of activity types will be opened and change the type of your activity from them.
+           After this, you can click on the continue button to move next step.
+            So in this component, you will see a search box and a small form for displaying 
+            the type of activity."
         codeSnippet={TypeSnippet}
         libraryUsed={[
           "prop-types",

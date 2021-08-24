@@ -9,7 +9,8 @@ export const Auth = () => {
       <Tabview
         componentName="Auth"
         path="\src\store\reducers\auth.js"
-        description="This is the Description of Compoennt"
+        description="To change the states of auth component this reducers component will be used. Default states are mentioned in this component and then this component will update states of auth component dynamically according to action called from the UI side. 
+        The component will filter that action through a switch and then perform that action."
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[]}

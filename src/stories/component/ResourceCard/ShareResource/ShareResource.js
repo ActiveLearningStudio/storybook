@@ -10,7 +10,11 @@ export const ShareResource = () => {
       <Tabview
         componentName="ShareResource"
         path="\src\components\ResourceCard\ShareResource.js"
-        description="This is the Description of Compoennt"
+        description="In this component, a prompt box is used to share any resource. 
+        Whenever you will click on share resource then a prompt box will be opened. 
+        In the prompt box, you will see a link for sharing that activity. 
+        Now any person with that link can access that activity. 
+        You can copy that link and share it with anyone."
         codeSnippet={CodeSnippet}
         libraryUsed={[
           "prop-types",

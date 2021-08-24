@@ -9,7 +9,9 @@ export const Activitybuild = () => {
       <Tabview
         componentName="ResourceActivityBuild"
         path="\src\components\ResourceCard\EditResource\ResourceActivityBuild.js"
-        description="This is the Description of Compoennt"
+        description="In the edit resource module, you will see a component regarding edit
+         build activity.  Through this component, you will call the H5P editor
+         and send some props to that editor for updating data of any resource activity."
         codeSnippet={CodeSnippet}
         libraryUsed={[
           "prop-types",

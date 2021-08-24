@@ -9,7 +9,11 @@ export const Group = () => {
       <Tabview
         componentName="Group"
         path="\src\store\reducers\group.js"
-        description="This is the Description of Compoennt"
+        description="This reducer component will use to update the states of the group module. 
+        Initially, all the states for this component will be set false. Whenever you will call
+         the action for this reducer from the UI side then this component will trigger that action
+          in the switch statement of this component. For example, if the action type is
+           updateSelectGroup then that case will be called and update the state with relative payload from the action."
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[]}

@@ -9,7 +9,10 @@ export const SelectActivity = () => {
       <Tabview
         componentName="ResourceSelectActivity"
         path="\src\components\ResourceCard\EditResource\ResourceSelectActivity.js"
-        description="This is the Description of Compoennt"
+        description="This component is used to change the activity from the given activity list. 
+        There is a list of activities that will be available in the form of this component
+         through which you can update the activity. After selecting the new activity you will 
+         see a continue button at the end of the form to move to the next step of the activity."
         codeSnippet={CodeSnippet}
         libraryUsed={[
           "prop-types",

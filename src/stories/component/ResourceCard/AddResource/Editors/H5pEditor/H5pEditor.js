@@ -10,7 +10,10 @@ export const H5PEditor = () => {
       <Tabview
         componentName="H5PEditor"
         path="\src\components\ResourceCard\AddResource\Editors\H5PEditor.js"
-        description="This is the Description of Compoennt"
+        description="This is the component for loading an H5P editor in an iframe.
+         Whenever you need to add some data through the H5P editor then you will load 
+         the H5P editor in an iframe. In this way, you can update and show data through
+          the H5p editor very easily."
         codeSnippet={CodeSnippet}
         libraryUsed={[
           "prop-types",
