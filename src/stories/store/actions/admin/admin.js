@@ -9,7 +9,11 @@ export const Admin = () => {
       <Tabview
         componentName="Admin"
         path="\src\store\actions\admin.js"
-        description="This is the Description of Compoennt"
+        description="The action components for the admin module are present in this file. 
+        All these actions will import into the reducer component of the admin module. 
+        In some components, the API will be called and then the component will send API 
+         response data to the reducer component as a payload.
+         Then reducer component of the admin module will change states according to the payload."
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[

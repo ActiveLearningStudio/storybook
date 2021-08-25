@@ -9,7 +9,10 @@ export const Playlist = () => {
       <Tabview
         componentName="Playlist"
         path="\src\store\actions\playlist.js"
-        description="This is the Description of Compoennt"
+        description="These actions are used to change the state of the playlist module. 
+        After getting data from API, each action component will dispatch a function for 
+        the reducer component. This dispatch function has an object of response data of playlist and type of action.
+         Then reducer component will process playlist data for changing state."
         codeSnippet={CodeSnippet}
         libraryUsed={["axios", "swal", "laravel-echo"]}
         customHooks={[

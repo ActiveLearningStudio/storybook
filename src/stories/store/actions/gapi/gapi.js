@@ -8,7 +8,9 @@ export const Gapi = () => {
       <Tabview
         componentName="Gapi"
         path="\src\store\actions\gapi.js"
-        description="This is the Description of Compoennt"
+        description="To get google API data all the action components present in this
+         file will be used. Each component first fetch data through API
+         then send API response and action type to the reducer components."
         codeSnippet={CodeSnippet}
         libraryUsed={["swal"]}
         customHooks={[

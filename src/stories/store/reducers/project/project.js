@@ -9,7 +9,9 @@ export const Project = () => {
       <Tabview
         componentName="Project"
         path="\src\store\reducers\project.js"
-        description="This is the Description of Compoennt"
+        description="This component will change the states for the project module.
+         Whenever. user will perform any action in the project module to change the state, 
+        then this component will perform that action by filtering through the switch statement."
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[

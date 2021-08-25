@@ -8,7 +8,11 @@ export const Share = () => {
       <Tabview
         componentName="Share"
         path="\src\store\actions\share.js"
-        description="This is the Description of Compoennt"
+        description="In order to share the project with someone, 
+        this action component will be used. Basically, the component will copy the project id and 
+        other necessary data through parameters. After this component will call the google classroom
+         API to share data on that panel.
+         In this way, this action will be used to share the project to google classroom."
         codeSnippet={CodeSnippet}
         libraryUsed={["swal"]}
         customHooks={[]}

@@ -9,7 +9,9 @@ export const Playlist = () => {
       <Tabview
         componentName="Playlist"
         path="\src\store\reducers\playlist.js"
-        description="This is the Description of Compoennt"
+        description="This reducer component is used to change the state of the playlist module. 
+        For example, to change the state for the selected playlist, loading H5p, is loading state for the playlist, etc.
+         All these states are changed through the switch statement used in this component."
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[]}

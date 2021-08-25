@@ -9,7 +9,10 @@ export const Project = () => {
       <Tabview
         componentName="Project"
         path="\src\store\actions\project.js"
-        description="This is the Description of Compoennt"
+        description="To update the state of the project module, these actions components
+         will be used to send payload data and type of action. The actions related to the project module are as: create the project,
+         upload project thumbnail, project preview, 
+         and other many more. So all these actions are used to update the state of the project module"
         codeSnippet={CodeSnippet}
         libraryUsed={["swal", "axios", "laravel-echo"]}
         customHooks={[

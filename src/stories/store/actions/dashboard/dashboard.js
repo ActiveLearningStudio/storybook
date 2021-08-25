@@ -8,7 +8,9 @@ export const Dashboard = () => {
       <Tabview
         componentName="Dashboard"
         path="\src\store\actions\dashboard.js"
-        description="This is the Description of Compoennt"
+        description="In this, action components of the dashboard module are present.
+         In each component API in dashboard service will be called and then each component will 
+        send API response data and action type to the reducer component."
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[

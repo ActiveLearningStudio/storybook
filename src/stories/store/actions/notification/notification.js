@@ -9,7 +9,11 @@ export const Notification = () => {
       <Tabview
         componentName="Notification"
         path="\src\store\actions\notification.js"
-        description="This is the Description of Compoennt"
+        description="The action components related to get all notifications, 
+        delete notifications and clear notifications are present in this file.
+         To perform actions for the notification module all these components will be used. 
+         Each component will dispatch action 
+        type and response data to the reducer component of the notification module."
         codeSnippet={CodeSnippet}
         libraryUsed={["swal", "laravel-echo"]}
         customHooks={[

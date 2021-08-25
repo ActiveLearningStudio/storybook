@@ -9,7 +9,9 @@ export const Team = () => {
       <Tabview
         componentName="Team"
         path="\src\store\reducers\team.js"
-        description="This is the Description of Compoennt"
+        description="This component is used to change the states of the team module.
+         The states of the team module are as follows: isLoading, isInviting, showCreation,
+          and showInviting, etc. ALl thee states will change through this reducer component with the help of case match to the switch statement."
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[

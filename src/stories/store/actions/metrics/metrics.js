@@ -9,7 +9,9 @@ export const Metrics = () => {
       <Tabview
         componentName="Metrics"
         path="\src\store\actions\metrics.js"
-        description="This is the Description of Compoennt"
+        description="In this, action components related to the metrics module are present. 
+        To change the log of activity, log of project and playlist, all these action components will be called respectively. All components will fetch data through 
+        API and then will send it to the reducer component through the dispatch function."
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[

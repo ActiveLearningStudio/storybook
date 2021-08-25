@@ -9,7 +9,9 @@ export const Canvas = () => {
       <Tabview
         componentName="Canvas"
         path="\src\store\actions\canvas.js"
-        description="This is the Description of Compoennt"
+        description="This file contains action components related to the canvas module.
+         All these components will call API for canvas settings and data for the canvas module.
+         Then each component will pass that data to the reducer component of the canvas module."
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[

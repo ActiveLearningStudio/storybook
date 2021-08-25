@@ -10,7 +10,9 @@ export const Group = () => {
       <Tabview
         componentName="Group"
         path="\src\store\actions\group.js"
-        description="This is the Description of Compoennt"
+        description="In this file, all the action components related to the group module are present.
+         In order to create a group, update the group, and invite group members these components will call API and then send response data to the reducer to update 
+        the state of group module like create, update, delete, invite group member, etc."
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[

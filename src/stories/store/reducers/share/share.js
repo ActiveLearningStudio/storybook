@@ -9,7 +9,10 @@ export const Share = () => {
       <Tabview
         componentName="Share"
         path="\src\store\reducers\share.js"
-        description="This is the Description of Compoennt"
+        description="For changing the states of sharing resources, this component is used. 
+        For example to change the states of google share or change the state for courses. 
+        This reducer component will perform an action according to the switch case match 
+        to the action type."
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[]}

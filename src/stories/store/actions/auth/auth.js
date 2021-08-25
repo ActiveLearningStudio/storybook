@@ -9,7 +9,13 @@ export const Auth = () => {
       <Tabview
         componentName="Auth"
         path="\src\store\actions\auth.js"
-        description="This is the Description of Compoennt"
+        description="All the auth actions are present in this file.
+          Which will be called through the reducer component of auth module. 
+          Each action will send response data and an error message to the reducer
+           component then the reducer component of auth module will process accordingly. 
+           In these action components, mostly each action will call API and then send data
+            through the dispatch function.
+         The dispatch function contains an object of action type and action payload."
         codeSnippet={CodeSnippet}
         libraryUsed={["swal"]}
         customHooks={[
