@@ -17,16 +17,16 @@ export const UploadActivity = () => {
         customHooks={[
           {
             name: "/src/components/ResourceCard/AddResource/Editors/H5PEditor",
-            url: "www.google.com",
+            url: "?path=/story/component-resourcecard-addresource-editors-h5peditor--component",
           },
           {
             name:
               "/src/components/ResourceCard/AddResource/ResourceDescribeActivity",
-            url: "www.google.com",
+            url: "?path=/story/component-resourcecard-addresource-resourcedescribeactivity--component",
           },
           {
             name: "/src/containers/CreateActivity/ActivityMeter",
-            url: "www.google.com",
+            url: "?path=/story/create-activity-activitymeter--component",
           },
         ]}
         reduxStore={[

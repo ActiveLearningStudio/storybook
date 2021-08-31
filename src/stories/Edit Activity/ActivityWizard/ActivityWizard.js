@@ -19,16 +19,16 @@ export const ActivityWizard = () => {
           {
             name:
               "/src/components/ResourceCard/EditResource/ResourceDescribeActivity",
-            url: "www.google.com",
+            url: "?path=/story/component-resourcecard-editresource-resourcedescribeactivity--component",
           },
           {
             name:
               "/src/components/ResourceCard/EditResource/ResourceActivityBuild",
-            url: "www.google.com",
+            url: "?path=/story/component-resourcecard-editresource-resourceactivitybuild--component",
           },
           {
             name: "/src/containers/EditActivity/ActivityMeter",
-            url: "www.google.com",
+            url: "",
           },
         ]}
         reduxStore={[

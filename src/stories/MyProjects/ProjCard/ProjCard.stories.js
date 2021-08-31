@@ -39,14 +39,14 @@ index.args = {
     "Swal",
   ],
   customHooks: [
-    { name: "/src/components/SharePreviewPopup/index", url: "www.google.com" },
+    { name: "/src/components/SharePreviewPopup/index", url: "" },
     {
       name: "/src/containers/Projects/ProjectCard/ProjectCardDropdown",
-      url: "www.google.com",
+      url: "?path=/story/my-projects-projectcard--project-card-dropdown",
     },
     {
       name: "/src/containers/Projects/ProjectPreviewModal/index",
-      url: "www.google.com",
+      url: "?path=/story/my-projects-samplepreviewmodal--component",
     },
   ],
   reduxStore: [{ path: "store/actions/project", pathCode: ProjectStore }],
@@ -76,7 +76,7 @@ ProjectCardDropdown.args = {
     "Swal",
   ],
   customHooks: [
-    { name: "/src/components/SharePreviewPopup/index", url: "www.google.com" },
+    { name: "/src/components/SharePreviewPopup/index", url: "" },
   ],
   reduxStore: [{ path: "store/actions/project", pathCode: ProjectStore }],
   apiUsed: [],

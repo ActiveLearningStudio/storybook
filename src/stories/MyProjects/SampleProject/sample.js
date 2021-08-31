@@ -21,10 +21,10 @@ export const Sample = () => {
           "Swal",
         ]}
         customHooks={[
-          { name: "components/models/activitySample", url: "www.google.com" },
+          { name: "components/models/activitySample", url: "" },
           {
             name: "containers/Preview/ProjectPreview/ProjectPreviewShared",
-            url: "www.google.com",
+            url: "?path=/story/preview-projectpreview--project-preview-shared",
           },
         ]}
         //customHooks={['./formik/createOrg','removeActiveAdminForm']}

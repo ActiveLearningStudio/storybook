@@ -19,26 +19,26 @@ When you click on activity type then a panel will be opened where you will pick 
           {
             name:
               "/src/components/ResourceCard/AddResource/ResourceActivityType",
-            url: "www.google.com",
+            url: "?path=/story/component-resourcecard-addresource-resourceactivitytype--component",
           },
           {
             name:
               "/src/components/ResourceCard/AddResource/ResourceSelectActivity",
-            url: "www.google.com",
+            url: "?path=/story/component-resourcecard-addresource-resourceselectactivity--component",
           },
           {
             name:
               "/src/components/ResourceCard/AddResource/ResourceDescribeActivity",
-            url: "www.google.com",
+            url: "?path=/story/component-resourcecard-addresource-resourcedescribeactivity--component",
           },
           {
             name:
               "/src/components/ResourceCard/AddResource/ResourceActivityBuild",
-            url: "www.google.com",
+            url: "?path=/story/component-resourcecard-addresource-resourceactivitybuild--component",
           },
           {
             name: "/src/containers/CreateActivity/ActivityMeter",
-            url: "www.google.com",
+            url: "?path=/story/create-activity-activitymeter--component",
           },
         ]}
         reduxStore={[

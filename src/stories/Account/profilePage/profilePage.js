@@ -21,9 +21,9 @@ After form submission, your profile will be updated. In the end, you can also se
           "swal",
         ]}
         customHooks={[
-          { name: "/src/utils/index", url: "www.google.com" },
-          { name: "/src/components/Footer/index", url: "www.google.com" },
-          { name: "/src/containers/Auth/Error", url: "www.google.com" },
+          { name: "/src/utils/index", url: "?path=/story/utils-index--component" },
+          { name: "/src/components/Footer/index", url: "?path=/story/component-footer-index--component" },
+          { name: "/src/containers/Auth/Error", url: "" },
         ]}
         reduxStore={[
           { path: "/src/store/actions/auth", pathCode: PasswordStore },

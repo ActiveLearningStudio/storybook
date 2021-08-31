@@ -26,7 +26,7 @@ For changing the password, go to the profile and click on change password.
         customHooks={[
           { name: "/src/utils/index", url: "?path=/story/utils-index--component" },
           { name: "/src/components/Footer/index", url: "?path=/story/component-footer-index--component" },
-          { name: "/src/containers/Auth/Error", url: "www.google.com" },
+          { name: "/src/containers/Auth/Error", url: "" },
         ]}
         reduxStore={[
           { path: "/src/store/actions/auth", pathCode: PasswordStore },

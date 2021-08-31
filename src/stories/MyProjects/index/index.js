@@ -28,13 +28,13 @@ export const Index = () => {
           "react-beautiful-dnd",
         ]}
         customHooks={[
-          { name: "/src/components/Footer/index", url: "www.google.com" },
-          { name: "/src/components/DeletePopup/index", url: "www.google.com" },
-          { name: "components/Loading/ProjectsLoading", url: "www.google.com" },
-          { name: "components/models/GoogleLoginModal", url: "" },
-          { name: "./ProjectCard", url: "www.google.com" },
-          { name: "./SampleProjectCard", url: "" },
-          { name: "./NewProjectPage", url: "www.google.com" },
+          { name: "/src/components/Footer/index", url: "?path=/story/component-footer-index--component" },
+          { name: "/src/components/DeletePopup/index", url: "?path=/story/component-deletepopup-index--component" },
+          { name: "components/Loading/ProjectsLoading", url: "" },
+          { name: "components/models/GoogleLoginModal", url: "?path=/story/component-modals-googleloginmodal--component" },
+          { name: "./ProjectCard", url: "?path=/story/my-projects-projectcard--index" },
+          { name: "./SampleProjectCard", url: "?path=/story/my-projects-sampleproject--component" },
+          { name: "./NewProjectPage", url: "" },
         ]}
         //customHooks={['./formik/createOrg','removeActiveAdminForm']}
         reduxStore={[{ path: "store/actions/project", pathCode: ProjectStore }]}

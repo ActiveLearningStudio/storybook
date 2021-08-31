@@ -20,14 +20,14 @@ export const CreateProject = () => {
           "Swal",
         ]}
         customHooks={[
-          { name: "/src/components/InputField/index", url: "www.google.com" },
+          { name: "/src/components/InputField/index", url: "?path=/story/component-inputfield--component" },
           {
             name: "/src/components/TextareaField/index",
-            url: "www.google.com",
+            url: "",
           },
           {
             name: "/src/components/TextareaField/index",
-            url: "www.google.com",
+            url: "",
           },
         ]}
         //customHooks={['./formik/createOrg','removeActiveAdminForm']}

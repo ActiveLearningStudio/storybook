@@ -67,13 +67,19 @@ export const Tabview = (props) => {
                         <li>
                           <h5>
                             {key.name}
-
-                            <a
+                            {
+                              key.url!=''?
+                              (
+                                <a
                              target="_blank"
                               href={key.url}
                             >
-                              link to library
+
+                              link to component
                             </a>
+                              ):( null)
+                            }
+                            
                           </h5>
                         </li>
                       </div>

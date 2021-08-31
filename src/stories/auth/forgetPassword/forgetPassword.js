@@ -26,9 +26,9 @@ export const ForgetPassword = () => {
           "swal",
         ]}
         customHooks={[
-          { name: "/src/utils/index", url: "www.google.com" },
-          { name: "/src/containers/Auth/Error", url: "www.google.com" },
-          { name: "/src/containers/Auth/Logo", url: "www.google.com" },
+          { name: "/src/utils/index", url: "?path=/story/utils-index--component" },
+          { name: "/src/containers/Auth/Error", url: "" },
+          { name: "/src/containers/Auth/Logo", url: "?path=/story/auth-logo--component" },
         ]}
         reduxStore={[
           { path: "/src/store/actions/auth", pathCode: StoreSnippet },
