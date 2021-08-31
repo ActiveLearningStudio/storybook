@@ -24,8 +24,8 @@ For changing the password, go to the profile and click on change password.
           "swal",
         ]}
         customHooks={[
-          { name: "/src/utils/index", url: "www.google.com" },
-          { name: "/src/components/Footer/index", url: "www.google.com" },
+          { name: "/src/utils/index", url: "?path=/story/utils-index--component" },
+          { name: "/src/components/Footer/index", url: "?path=/story/component-footer-index--component" },
           { name: "/src/containers/Auth/Error", url: "www.google.com" },
         ]}
         reduxStore={[
