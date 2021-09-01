@@ -16,10 +16,10 @@ export const Project = () => {
         codeSnippet={CodeSnippet}
         libraryUsed={["swal", "axios", "laravel-echo"]}
         customHooks={[
-          { name: "/src/store/actionTypes", url: "www.google.com" },
+          { name: "/src/store/actionTypes", url: "?path=/story/store-actiontypes--component" },
           {
-            name: "/src/cemnnoopst/SharePreviewPopup/index",
-            url: "www.google.com",
+            name: "/src/component/SharePreviewPopup/index",
+            url: "",
           },
         ]}
         reduxStore={[{ path: "/src/store/index", pathCode: StoreSnippet }]}

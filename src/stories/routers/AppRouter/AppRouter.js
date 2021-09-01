@@ -24,91 +24,91 @@ export const AppRouter = () => {
         customHooks={[
           {
             name: "components/Header",
-            url: "www.google.com",
+            url: "?path=/story/component-header-index--component",
           },
           {
             name: "/src/components/Sidebar/index",
-            url: "www.google.com",
+            url: "?path=/story/component-sidebar-index--component",
           },
           {
             name: "/src/routers/PublicRoute",
-            url: "www.google.com",
+            url: "?path=/story/routers-publicroute--component",
           },
           {
             name: "/src/routers/PrivateRoute",
-            url: "www.google.com",
+            url: "?path=/story/routers-privateroute--component",
           },
           {
             name: "/src/containers/CreateActivity/index",
-            url: "www.google.com",
+            url: "",
           },
           {
             name: "/src/containers/ProjectShareTemplate",
-            url: "www.google.com",
+            url: "",
           },
           {
             name: "/src/containers/Preview/index",
-            url: "www.google.com",
+            url: "",
           },
           {
             name: "/src/containers/Auth/RegisterPage",
-            url: "www.google.com",
+            url: "?path=/story/auth-registerpage--component",
           },
           {
             name: "/src/containers/Auth/ForgotPasswordPage",
-            url: "www.google.com",
+            url: "?path=/story/auth-forgetpasswordpage--component",
           },
           {
             name: "/src/containers/Groups/AddMembers/index",
-            url: "www.google.com",
+            url: "?path=/story/groups-addgroupmember--index",
           },
           {
             name: "/src/containers/Auth/ConfirmEmailPage",
-            url: "www.google.com",
+            url: "",
           },
           {
             name: "/src/containers/EditActivity/index",
-            url: "www.google.com",
+            url: "",
           },
           {
             name: "/src/containers/LMS/LTI/Activity/index",
-            url: "www.google.com",
+            url: "",
           },
           {
             name: "/src/containers/Auth/VevinsityRegistration",
-            url: "www.google.com",
+            url: "?path=/story/auth-registerpage--component",
           },
           {
             name: "/src/containers/ManageOrganization/index",
-            url: "www.google.com",
+            url: "",
           },
           {
             name: "/src/containers/Account/ProfilePage",
-            url: "www.google.com",
+            url: "?path=/story/profile-profilepage--component",
           },
           {
             name: "/src/containers/Admin/index",
-            url: "www.google.com",
+            url: "?path=/story/admin-index--component",
           },
           {
             name: "/src/containers/LMS/Canvas/DeepLinking/SearchPage/index",
-            url: "www.google.com",
+            url: "",
           },
           {
             name: "/src/containers/Groups/index",
-            url: "www.google.com",
+            url: "",
           },
           {
             name: "/src/containers/Teams/AddProjects/index",
-            url: "www.google.com",
+            url: "?path=/story/teams-addprojects--index",
           },
           {
             name: "/src/containers/SecureProjectPreview",
-            url: "www.google.com",
+            url: "",
           },
           {
             name: "/src/containers/Projects/index",
-            url: "www.google.com",
+            url: "?path=/story/my-projects-index--component",
           },
         ]}
         reduxStore={[]}

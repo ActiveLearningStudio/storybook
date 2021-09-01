@@ -20,13 +20,13 @@ export const Index = () => {
         customHooks={[
           {
             name: "/src/components/InviteDialogGroup/index",
-            url: "www.google.com",
+            url: "?path=/story/component-invitedialogue--component",
           },
-          { name: "/src/utils/index", url: "www.google.com" },
+          { name: "/src/utils/index", url: "?path=/story/utils-index--component" },
           {
             name:
               "/src/containers/Groups/CreateGroup/components/InviteGroup/MemberItem",
-            url: "www.google.com",
+            url: "",
           },
         ]}
         reduxStore={[{ path: "/src/store/actions/team", pathCode: GroupStore }]}

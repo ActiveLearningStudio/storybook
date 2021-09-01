@@ -17,7 +17,7 @@ export const AuthServices = () => {
         customHooks={[
           {
             name: "/src/services/errors",
-            url: "www.google.com",
+            url: "?path=/story/services-error--component",
           },
         ]}
         reduxStore={[]}

@@ -23,7 +23,7 @@ export const Index = () => {
         customHooks={[
           {
             name: "/src/containers/H5PPreview",
-            url: "www.google.com",
+            url: "",
           },
         ]}
         reduxStore={[

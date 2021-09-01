@@ -17,7 +17,7 @@ export const Organization = () => {
         codeSnippet={CodeSnippet}
         libraryUsed={["swal"]}
         customHooks={[
-          { name: "/src/store/actionTypes", url: "www.google.com" },
+          { name: "/src/store/actionTypes", url: "?path=/story/store-actiontypes--component" },
         ]}
         reduxStore={[]}
         apiUsed={[

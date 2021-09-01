@@ -17,8 +17,8 @@ export const Index = () => {
     codeSnippet={IndexSnippet}
     libraryUsed={['prop-types','react-redux','swal','react-fontawesome','react-router-dom']}
     customHooks={[
-      {name:'/src/components/InviteDialog/index',url:'www.google.com'},
-      {name:' /src/containers/Teams/TeamMemberView/TeamMember',url:'www.google.com'}
+      {name:'/src/components/InviteDialog/index',url:'?path=/story/component-invitedialogue--component'},
+      {name:' /src/containers/Teams/TeamMemberView/TeamMember',url:''}
     ]}
     //customHooks={['./formik/createOrg','removeActiveAdminForm']}
     reduxStore= {[

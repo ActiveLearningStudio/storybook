@@ -15,7 +15,7 @@ export const Index = () => {
         box and select any project from the list to add to the group which you are creating."
         codeSnippet={IndexSnippet}
         libraryUsed={["prop-types", "react-fontawesome"]}
-        customHooks={[{ name: "/src/utils/index", url: "www.google.com" }]}
+        customHooks={[{ name: "/src/utils/index", url: "?path=/story/utils-index--component" }]}
         reduxStore={[]}
         apiUsed={[]}
         images={AssignProject}

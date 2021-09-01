@@ -19,7 +19,7 @@ export const ActivitiesList = () => {
         customHooks={[
           {
             name: "/src/components/ActivityPreviewCard/index",
-            url: "www.google.com",
+            url: "?path=/story/component-activitypreviewcard--component",
           },
         ]}
         reduxStore={[]}

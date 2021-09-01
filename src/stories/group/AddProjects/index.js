@@ -25,7 +25,7 @@ export const Index = () => {
           {
             name:
               "/src/containers/Groups/CreateGroup/components/AssignProject/index",
-            url: "www.google.com",
+            url: "?path=/story/groups-creategroup-assignproject--index",
           },
         ]}
         reduxStore={[

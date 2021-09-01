@@ -16,7 +16,7 @@ export const Index = () => {
     codeSnippet={IndexSnippet}
     libraryUsed={['prop-types','react-redux','swal','react-fontawesome']}
     customHooks={[
-      {name:'/src/containers/Teams/AddMembers/TeamMember',url:'www.google.com'}
+      {name:'/src/containers/Teams/AddMembers/TeamMember',url:''}
 
     ]}
     //customHooks={['./formik/createOrg','removeActiveAdminForm']}

@@ -19,7 +19,7 @@ export const Index = () => {
     codeSnippet={codeSnippet}
     libraryUsed={['react-bootstrap', 'react-redux','react-fontawesome','react-router-dom','prop-types','swal','react-beautiful-dnd']}
     customHooks={[
-      {name:'/src/components/ResourceCard/index',url:'www.google.com'},{name:'/src/components/ResourceCard/index',url:'www.google.com'}
+      {name:'/src/components/ResourceCard/index',url:''}
     ]}
     //customHooks={['./formik/createOrg','removeActiveAdminForm']}
     reduxStore= {[

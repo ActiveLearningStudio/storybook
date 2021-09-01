@@ -23,17 +23,17 @@ export const SelectActivity = () => {
         customHooks={[
           {
             name: "/src/utils/index",
-            url: "www.google.com",
+            url: "?path=/story/utils-index--component",
           },
           {
             name:
               "/src/components/ResourceCard/EditResource/EditResourceSidebar",
-            url: "www.google.com",
+            url: "?path=/story/component-resourcecard-editresource-editresourcesidebar--component",
           },
           {
             name:
               "/src/components/ResourceCard/fields/ResourceActivityTypeField",
-            url: "www.google.com",
+            url: "",
           },
         ]}
         reduxStore={[

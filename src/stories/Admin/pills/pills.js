@@ -17,8 +17,8 @@ You can go to all users, manage roles, and perform other functionalities which a
         codeSnippet={codeSnippet}
         libraryUsed={["react-bootstrap", "react-redux", "prop-types"]}
         customHooks={[
-          { name: "./starter", url: "www.google.com" },
-          { name: "./column", url: "www.pakistan.com" },
+          { name: "./starter", url: "" },
+          { name: "./column", url: "" },
         ]}
         //customHooks={['./formik/createOrg','removeActiveAdminForm']}
         reduxStore={[{ path: "store/actions/resource", pathCode: PillStore }]}

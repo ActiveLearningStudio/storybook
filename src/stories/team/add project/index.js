@@ -19,7 +19,7 @@ export const Index = () => {
     codeSnippet={IndexSnippet}
     libraryUsed={['prop-types','react-redux','react-router-dom','react-bootstrap']}
     customHooks={[
-      {name:'/src/containers/Teams/CreateTeam/components/AssignProject/index',url:'www.google.com'}
+      {name:'/src/containers/Teams/CreateTeam/components/AssignProject/index',url:'?path=/story/teams-createteam-assignproject--index'}
 
     ]}
     //customHooks={['./formik/createOrg','removeActiveAdminForm']}

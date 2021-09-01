@@ -16,7 +16,7 @@ export const Index = () => {
     codeSnippet={IndexSnippet}
     libraryUsed={['prop-types','react-fontawesome']}
     customHooks={[
-      {name:'/src/utils/index',url:'www.google.com'}
+      {name:'/src/utils/index',url:'?path=/story/utils-index--component'}
     ]}
     reduxStore= {[
     ]}

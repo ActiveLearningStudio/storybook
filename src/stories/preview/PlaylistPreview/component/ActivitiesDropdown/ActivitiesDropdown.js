@@ -16,7 +16,7 @@ export const ActivitiesDropdown = () => {
         customHooks={[
           {
             name: "components/ActivityPreviewCard/ActivityPreviewCardDropdown",
-            url: "www.google.com",
+            url: "",
           },
         ]}
         reduxStore={[]}

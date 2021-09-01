@@ -18,7 +18,7 @@ export const Index = () => {
         customHooks={[
           {
             name: "/src/components/ResourceCard/dropdown",
-            url: "www.google.com",
+            url: "?path=/story/component-resourcecard-resourcecarddropdown--component",
           },
         ]}
         reduxStore={[]}

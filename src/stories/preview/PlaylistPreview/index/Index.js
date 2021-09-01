@@ -28,20 +28,20 @@ export const Index = () => {
           {
             name:
               "/src/containers/Preview/PlaylistPreview/components/PreviousLink",
-            url: "www.google.com",
+            url: "?path=/story/preview-playlistpreview-component-previouslink--component",
           },
           {
             name: "/src/containers/Preview/PlaylistPreview/components/NextLink",
-            url: "www.google.com",
+            url: "?path=/story/preview-playlistpreview-component-nextlink--component",
           },
           {
             name:
               "/src/containers/Preview/PlaylistPreview/components/ActivitiesList",
-            url: "www.google.com",
+            url: "?path=/story/preview-playlistpreview-component-activitieslist--component",
           },
           {
             name: "/src/containers/H5PPreview",
-            url: "www.google.com",
+            url: "",
           },
         ]}
         reduxStore={[

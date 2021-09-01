@@ -27,28 +27,28 @@ export const DescribeActivity = () => {
         customHooks={[
           {
             name: "/src/utils/index",
-            url: "www.google.com",
+            url: "?path=/story/utils-index--component",
           },
           {
             name: "/src/components/ResourceCard/fields/MetaTitleInputField",
-            url: "www.google.com",
+            url: "?path=/story/component-resourcecard-field-metatitleinputfield--component",
           },
           {
             name: "/src/components/models/pexels",
-            url: "www.google.com",
+            url: "path=/story/component-modals-pexels--component",
           },
           {
             name: "/src/components/ResourceCard/AddResource/dropdownData",
-            url: "www.google.com",
+            url: "?path=/story/component-resourcecard-resourcecarddropdown--component",
           },
           {
             name: "/src/components/ResourceCard/fields/MetaSubjectsField",
-            url: "www.google.com",
+            url: "?path=/story/component-resourcecard-field-metasubjectfield--component",
           },
           {
             name:
               "/src/components/ResourceCard/fields/MetaEducationLevelInputField",
-            url: "www.google.com",
+            url: "?path=/story/component-resourcecard-field-metaeducationlevelinputfield--component",
           },
         ]}
         reduxStore={[

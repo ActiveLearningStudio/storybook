@@ -17,7 +17,7 @@ export const Notification = () => {
         codeSnippet={CodeSnippet}
         libraryUsed={["swal", "laravel-echo"]}
         customHooks={[
-          { name: "/src/store/actionTypes", url: "www.google.com" },
+          { name: "/src/store/actionTypes", url: "?path=/story/store-actiontypes--component" },
         ]}
         reduxStore={[]}
         apiUsed={[

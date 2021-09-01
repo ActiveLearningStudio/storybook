@@ -17,7 +17,7 @@ export const Project = () => {
         customHooks={[
           {
             name: "/src/logic/lmsCourse",
-            url: "www.google.com",
+            url: "?path=/story/logic-lmscourse--component",
           },
         ]}
         reduxStore={[

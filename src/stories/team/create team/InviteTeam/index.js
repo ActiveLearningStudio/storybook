@@ -16,9 +16,8 @@ export const Index = () => {
     codeSnippet={IndexSnippet}
     libraryUsed={['prop-types','react-redux']}
     customHooks={[
-      {name:'/src/components/InviteDialog/index',url:'www.google.com'},
-      {name:'/src/components/InviteDialog/index',url:'www.google.com'},
-      {name:'/src/containers/Teams/CreateTeam/components/InviteTeam/MemberItem',url:'www.google.com'}
+      {name:'/src/components/InviteDialog/index',url:'?path=/story/component-invitedialogue--component'},
+      {name:'/src/containers/Teams/CreateTeam/components/InviteTeam/MemberItem',url:''}
     ]}
     reduxStore= {[
       {path:'/src/store/actions/team',pathCode:IndexStore}

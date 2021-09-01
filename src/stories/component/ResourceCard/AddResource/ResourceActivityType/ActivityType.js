@@ -25,11 +25,11 @@ export const ActivityType = () => {
         customHooks={[
           {
             name: "/src/utils/index",
-            url: "www.google.com",
+            url: "?path=/story/utils-index--component",
           },
           {
             name: "/src/components/InputField/index",
-            url: "www.google.com",
+            url: "?path=/story/component-inputfield--component",
           },
         ]}
         reduxStore={[

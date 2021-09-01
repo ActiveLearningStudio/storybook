@@ -25,7 +25,7 @@ export const Dropdown = () => {
         customHooks={[
           {
             name: "/src/components/ResourceCard/shareResource",
-            url: "www.google.com",
+            url: "?path=/story/component-resourcecard-shareresource--component",
           },
         ]}
         reduxStore={[

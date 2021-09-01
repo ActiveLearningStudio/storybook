@@ -16,7 +16,7 @@ export const Index = () => {
           playlist will be deleted."
         codeSnippet={CodeSnippet}
         libraryUsed={["prop-types"]}
-        customHooks={[{ name: "/src/utils/index", url: "www.google.com" }]}
+        customHooks={[{ name: "/src/utils/index", url: "?path=/story/utils-index--component" }]}
         //customHooks={['./formik/createOrg','removeActiveAdminForm']}
         reduxStore={[]}
         apiUsed={[]}

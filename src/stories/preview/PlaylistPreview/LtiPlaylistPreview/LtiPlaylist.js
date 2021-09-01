@@ -27,20 +27,20 @@ export const LtiPlaylist = () => {
           {
             name:
               "/src/containers/Preview/PlaylistPreview/components/PreviousLink",
-            url: "www.google.com",
+            url: "?path=/story/preview-playlistpreview-component-previouslink--component",
           },
           {
             name: "/src/containers/Preview/PlaylistPreview/components/NextLink",
-            url: "www.google.com",
+            url: "?path=/story/preview-playlistpreview-component-nextlink--component",
           },
           {
             name:
               "/src/containers/Preview/PlaylistPreview/components/ActivitiesDropdown",
-            url: "www.google.com",
+            url: "?path=/story/preview-playlistpreview-component-activitiesdropdown--component",
           },
           {
             name: "/src/containers/H5PPreview",
-            url: "www.google.com",
+            url: "",
           },
         ]}
         reduxStore={[

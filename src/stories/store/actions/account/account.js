@@ -14,7 +14,7 @@ export const Account = () => {
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[
-          { name: "/src/store/actionTypes", url: "www.google.com" },
+          { name: "/src/store/actionTypes", url: "?path=/story/store-actiontypes--component" },
         ]}
         reduxStore={[]}
         apiUsed={[{ path: "/src/services/account.service", apicode: ApiCode }]}

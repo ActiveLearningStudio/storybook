@@ -22,11 +22,11 @@ export const Activitybuild = () => {
         customHooks={[
           {
             name: "/src/utils/index",
-            url: "www.google.com",
+            url: "?path=/story/utils-index--component",
           },
           {
             name: "/src/components/ResourceCard/AddResource/Editors/H5PEditor",
-            url: "www.google.com",
+            url: "?path=/story/component-resourcecard-addresource-editors-h5peditor--component",
           },
         ]}
         reduxStore={[

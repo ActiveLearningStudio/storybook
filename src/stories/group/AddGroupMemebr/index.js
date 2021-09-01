@@ -24,7 +24,7 @@ export const Index = () => {
         customHooks={[
           {
             name: "/src/containers/Groups/AddMembers/GroupMember",
-            url: "www.google.com",
+            url: "",
           },
         ]}
         reduxStore={[

@@ -19,7 +19,7 @@ export const Search = () => {
     codeSnippet={SearchSnippet}
     libraryUsed={['react-bootstrap', 'react-redux','react-router-dom','swal','formik','react-fontawesome']}
     customHooks={[
-      {name:'/src/components/ResourceCard/AddResource/dropdownData',url:'www.google.com'}
+      {name:'/src/components/ResourceCard/AddResource/dropdownData',url:'?path=/story/component-resourcecard-resourcecarddropdown--component'}
     ]}
     //customHooks={['./formik/createOrg','removeActiveAdminForm']}
     reduxStore= {[

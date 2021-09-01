@@ -32,8 +32,8 @@ index.args = {
   codeSnippet:PreviewSnippet,
   libraryUsed:['react-redux','react-fontawesome','react-router-dom','prop-types','Swal','react-slick'],
   customHooks:[
-    {name:'/src/components/DeletePopup/index',url:'www.google.com'},{name:'/src/components/models/GoogleLoginModal',url:'www.google.com'},
-      {name:'/src/components/ActivityCard/index',url:'www.google.com'},   {name:'/src/components/SharePreviewPopup/index',url:'www.google.com'}
+    {name:'/src/components/DeletePopup/index',url:'?path=/story/component-deletepopup-index--component'},{name:'/src/components/models/GoogleLoginModal',url:'?path=/story/component-modals-googleloginmodal--component'},
+      {name:'/src/components/ActivityCard/index',url:'?path=/story/component-activitycard--component'},   {name:'/src/components/SharePreviewPopup/index',url:''}
       
   ],
   reduxStore: [
@@ -63,7 +63,7 @@ ProjectPreviewShared.args = {
   codeSnippet:SharedSnippet,
   libraryUsed:['react-redux','react-bootstrap','react-fontawesome','react-router-dom','prop-types','react-slick'],
   customHooks:[
-    {name:'/src/components/ActivityCard/index',url:'www.google.com'},{name:'/src/components/Unauthorized',url:'www.google.com'}
+    {name:'/src/components/ActivityCard/index',url:'?path=/story/component-activitycard--component'},{name:'/src/components/Unauthorized',url:''}
   ],
   reduxStore: [
     {path:'/src/store/actions/project',pathCode:SharedStore}

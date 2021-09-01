@@ -26,11 +26,11 @@ organization, from your team, or add an external user."
         customHooks={[
           {
             name: "containers/ManageOrganization/inviteAdmin",
-            url: "http://localhost:6006/?path=/story/admin-formik--create-user",
+            url: "",
           },
           {
             name: "containers/ManageOrganization/addUser",
-            url: "www.pakistan.com",
+            url: "",
           },
         ]}
         //customHooks={['./formik/createOrg','removeActiveAdminForm']}

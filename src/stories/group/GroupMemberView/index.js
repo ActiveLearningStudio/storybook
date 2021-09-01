@@ -26,11 +26,11 @@ export const Index = () => {
         customHooks={[
           {
             name: "/src/components/InviteDialogGroup/index",
-            url: "www.google.com",
+            url: "?path=/story/component-invitedialoguegroup--component",
           },
           {
             name: " /src/containers/Groups/GroupMemberView/GroupMember",
-            url: "www.google.com",
+            url: "",
           },
         ]}
         //customHooks={['./formik/createOrg','removeActiveAdminForm']}

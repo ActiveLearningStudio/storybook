@@ -17,7 +17,7 @@ export const ActivityOption = () => {
         customHooks={[
           {
             name: "/src/containers/H5PPreview",
-            url: "www.google.com",
+            url: "",
           },
         ]}
         reduxStore={[]}

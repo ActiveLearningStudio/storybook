@@ -20,7 +20,7 @@ export const Index = () => {
         customHooks={[
           {
             name: "/src/containers/Notification/NotificationArea",
-            url: "www.google.com",
+            url: "?path=/story/notification-notificationarea--component",
           },
         ]}
         reduxStore={[]}

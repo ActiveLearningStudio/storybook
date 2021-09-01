@@ -24,7 +24,7 @@ export const Index = () => {
           "react-router-dom",
           "react-bootstrap",
         ]}
-        customHooks={[{ name: "/src/utils/index", url: "www.google.com" }]}
+        customHooks={[{ name: "/src/utils/index", url: "?path=/story/utils-index--component" }]}
         //customHooks={['./formik/createOrg','removeActiveAdminForm']}
         reduxStore={[
           { path: "/src/store/actions/group", pathCode: GroupStore },

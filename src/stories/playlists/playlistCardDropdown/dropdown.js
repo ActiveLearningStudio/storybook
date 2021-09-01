@@ -16,7 +16,7 @@ export const Dropdown = () => {
     codeSnippet={DropdownSnippet}
     libraryUsed={['react-bootstrap', 'react-redux','react-fontawesome','react-router-dom','prop-types']}
     customHooks={[
-      {name:'/src/components/ResourceCard/ShareLink',url:'www.google.com'},{name:'/src/components/ResourceCard/shareResource',url:'www.google.com'}
+      {name:'/src/components/ResourceCard/ShareLink',url:'?path=/story/component-resourcecard-sharelink--component'},{name:'/src/components/ResourceCard/shareResource',url:'?path=/story/component-resourcecard-shareresource--component'}
     ]}
     //customHooks={['./formik/createOrg','removeActiveAdminForm']}
     reduxStore= {[

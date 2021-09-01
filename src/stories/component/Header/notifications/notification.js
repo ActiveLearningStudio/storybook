@@ -19,7 +19,7 @@ export const Notification = () => {
     codeSnippet={codeSnippet}
     libraryUsed={['react-bootstrap', 'react-redux','react-router-dom']}
     customHooks={[
-      {name:'containers/Notification/NotificationArea',url:'www.google.com'}
+      {name:'containers/Notification/NotificationArea',url:'?path=/story/notification-notificationarea--component'}
     ]}
     //customHooks={['./formik/createOrg','removeActiveAdminForm']}
     reduxStore= {[

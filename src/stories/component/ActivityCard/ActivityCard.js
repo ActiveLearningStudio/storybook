@@ -18,7 +18,7 @@ export const ActivityCard = () => {
         customHooks={[
           {
             name: "/src/components/ResourceCard/ResourceCardDropdown",
-            url: "www.google.com",
+            url: "?path=/story/component-resourcecard-resourcecarddropdown--component",
           },
         ]}
         reduxStore={[]}

@@ -16,8 +16,8 @@ export const Index = () => {
     codeSnippet={codeSnippet}
     libraryUsed={['react-bootstrap', 'react-redux','react-fontawesome','react-router-dom','prop-types']}
     customHooks={[
-      {name:'/src/components/Header/multitenancyDropdown',url:'www.google.com'},{name:'/src/components/Header/searchForm',url:'www.google.com'},
-      {name:'/src/components/Header/searchForm',url:'www.google.com'},{name:'/src/components/Header/notification',url:''}
+      {name:'/src/components/Header/multitenancyDropdown',url:'?path=/story/component-header-subscription--component'},{name:'/src/components/Header/searchForm',url:'?path=/story/component-header-search-form--component'},
+      {name:'/src/components/Header/notification',url:'?path=/story/component-header-notification--component'}
     ]}
     //customHooks={['./formik/createOrg','removeActiveAdminForm']}
     reduxStore= {[

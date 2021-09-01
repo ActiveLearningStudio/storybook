@@ -21,9 +21,9 @@ export const Index = () => {
     codeSnippet={IndexSnippet}
     libraryUsed={['prop-types','react-js-pagination','react-redux','react-fontawesome','react-bootstrap']}
     customHooks={[
-      {name:'/src/components/ResourceCard/AddResource/dropdownData',url:'www.google.com'},
-      {name:'/src/containers/Search/CloneModel',url:'www.google.com'},
-      {name:'/src/components/Footer/index',url:'www.google.com'}
+      {name:'/src/components/ResourceCard/AddResource/dropdownData',url:'?path=/story/component-resourcecard-resourcecarddropdown--component'},
+      {name:'/src/containers/Search/CloneModel',url:''},
+      {name:'/src/components/Footer/index',url:'?path=/story/component-footer-index--component'}
 
     ]}
     //customHooks={['./formik/createOrg','removeActiveAdminForm']}

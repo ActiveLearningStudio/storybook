@@ -19,7 +19,7 @@ export const Auth = () => {
         codeSnippet={CodeSnippet}
         libraryUsed={["swal"]}
         customHooks={[
-          { name: "/src/store/actionTypes", url: "www.google.com" },
+          { name: "/src/store/actionTypes", url: "?path=/story/store-actiontypes--component" },
         ]}
         reduxStore={[{ path: "/src/store/index", pathCode: StoreSnippet }]}
         apiUsed={[{ path: "/src/services/auth.service", apicode: ApiCode }]}

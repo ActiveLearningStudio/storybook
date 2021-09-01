@@ -15,11 +15,11 @@ export const Index = () => {
         codeSnippet={IndexSnippet}
         libraryUsed={["prop-types", "react-redux", "redux-form"]}
         customHooks={[
-          { name: "/src/utils/index", url: "www.google.com" },
-          { name: "/src/components/InputField/index", url: "www.google.com" },
+          { name: "/src/utils/index", url: "?path=/story/utils-index--component" },
+          { name: "/src/components/InputField/index", url: "?path=/story/component-inputfield--component" },
           {
             name: "/src/components/TextareaField/index",
-            url: "www.google.com",
+            url: "",
           },
         ]}
         reduxStore={[]}

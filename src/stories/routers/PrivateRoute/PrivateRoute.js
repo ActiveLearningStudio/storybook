@@ -16,7 +16,7 @@ export const PrivateRoute = () => {
         customHooks={[
           {
             name: "/src/containers/Auth/SubscribePage",
-            url: "www.google.com",
+            url: "",
           },
         ]}
         reduxStore={[]}

@@ -20,7 +20,7 @@ export const Index = () => {
     codeSnippet={IndexSnippet}
     libraryUsed={['prop-types','react-redux','swal','react-fontawesome','react-router-dom','react-bootstrap']}
     customHooks={[
-      {name:'/src/utils/index',url:'www.google.com'}
+      {name:'/src/utils/index',url:'?path=/story/utils-index--component'}
      
     ]}
     //customHooks={['./formik/createOrg','removeActiveAdminForm']}

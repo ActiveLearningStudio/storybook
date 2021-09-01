@@ -18,10 +18,10 @@ export const Index = () => {
     codeSnippet={codeSnippet}
     libraryUsed={['react-bootstrap', 'react-redux','react-fontawesome','react-router-dom','prop-types','react-placeholder','swal','react-beautiful-dnd']}
     customHooks={[
-      {name:'/src/components/Footer/index',url:'www.google.com'},{name:'/src/components/DeletePopup/index',url:'www.google.com'},
-      {name:'/src/components/ResourceCard/AddResource/index',url:'www.google.com'},{name:'/src/components/ResourceCard/EditResource/index',url:''},
-      {name:'/src/containers/Playlists/PlaylistCard/index',url:'www.google.com'},{name:'/src/containers/Playlists/PreviewResourcePage',url:''},
-      {name:'/src/containers/Playlists/CreatePlaylistPopup/index',url:'www.google.com'}
+      {name:'/src/components/Footer/index',url:'?path=/story/component-footer-index--component'},{name:'/src/components/DeletePopup/index',url:'?path=/story/component-deletepopup-index--component'},
+      {name:'/src/components/ResourceCard/AddResource/index',url:''},{name:'/src/components/ResourceCard/EditResource/index',url:''},
+      {name:'/src/containers/Playlists/PlaylistCard/index',url:'?path=/story/playlists-playlistcard--index'},{name:'/src/containers/Playlists/PreviewResourcePage',url:''},
+      {name:'/src/containers/Playlists/CreatePlaylistPopup/index',url:'?path=/story/playlists-createplaylistpopup--index'}
     ]}
     //customHooks={['./formik/createOrg','removeActiveAdminForm']}
     reduxStore= {[

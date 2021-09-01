@@ -17,7 +17,7 @@ export const Team = () => {
         codeSnippet={CodeSnippet}
         libraryUsed={[]}
         customHooks={[
-          { name: "/src/store/actionTypes", url: "www.google.com" },
+          { name: "/src/store/actionTypes", url: "?path=/story/store-actiontypes--component" },
         ]}
         reduxStore={[{ path: "/src/store/index", pathCode: StoreSnippet }]}
         apiUsed={[{ path: "/src/services/team.service", apicode: ApiCode }]}
